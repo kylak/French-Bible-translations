@@ -1,8 +1,8 @@
-## Informations
-- La numerotation des livres de la Cahen suit l'ordre des livres protestants, en revanche les livres de la Cahen sont affiches dans l'ordre original de la Cahen, cad l'ordre juif.
-- La versification entre traductions peut varier, par exemple la Martin arrive a avoir Lv 6:24-30 en decalage par rapport a la Darby.
-- La Martin, est la version de 1707.
-- L'A.T de Chouraqui pourrait etre interessant a rajouter (mais pas le N.T, je ne le trouve pas tres bien).
+## Information
+- The numbering of the books in Cahen follows the order of the Protestant books; however, the books of Cahen are displayed in Cahen’s original order, i.e., the Jewish order.
+- Versification may vary between translations; for example, Martin has Leviticus 6:24–30 offset compared to Darby.
+- Martin is the 1707 version.
+- Chouraqui’s Old Testament would have been interesting to add, I think (but not the New Testament, which I don’t find very good), but it seems that this translation is not yet in the public domain.
 
 ## Sources
 - Martin :
