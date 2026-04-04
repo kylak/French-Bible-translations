@@ -1,5 +1,6 @@
 ## Informations
 - La numerotation des livres de la Cahen suit l'ordre des livres protestants, en revanche les livres de la Cahen sont affiches dans l'ordre original de la Cahen, cad l'ordre juif.
+- La versification entre traductions peut varier, par exemple la Martin arrive a avoir Lv 6:24-30 de plus par rapport a la Darby.
 - La Martin, est la version de 1707.
 - L'A.T de Chouraqui pourrait etre interessant a rajouter (mais pas le N.T, je ne le trouve pas tres bien).
 
