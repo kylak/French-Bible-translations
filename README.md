@@ -1,3 +1,8 @@
+## Informations
+- La numerotation des livres de la Cahen suit l'ordre des livres protestants, en revanche les livres de la Cahen sont affiches dans l'ordre original de la Cahen, cad l'ordre juif.
+- La Martin, est la version de 1707.
+- L'A.T de Chouraqui pourrait etre interessant a rajouter (mais pas le N.T, je ne le trouve pas tres bien).
+
 ## Sources
 - Martin :
     - A.T : https://sites.google.com/view/martin1707/accueil
@@ -10,7 +15,3 @@
 - Cahen : https://github.com/Sefaria/Sefaria-Data/tree/23065165369399cccc95c6004bce1ebe28620e45/sources/French%20Levangile%20Tanakh
 
 - A.Dumont : https://nouveautestament.github.io/
-
-## Informations
-- La Martin, est la version de 1707.
-- L'A.T de Chouraqui pourrait etre interessant a rajouter (mais pas le N.T, je ne le trouve pas tres bien).
