@@ -275,7 +275,7 @@ BOOK["Hebrews"] = 58
 
 ## Reference Files
 
-- `REFERENCE_BOOKS.txt` - Standard book number mappings
+- `REFERENCE_BOOKS.md` - Standard book number mappings
 - `NT_versification.txt` - NT chapter/verse counts (format: `BBCCC count`)
 
 ## Expected Verse Counts
