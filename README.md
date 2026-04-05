@@ -7,10 +7,7 @@
 - Chouraqui’s Old Testament would have been interesting to add, I think (but not the New Testament, which I don’t find very good), but it seems that this translation is not yet in the public domain.
 
 ## Sources
-- Martin :
-    - A.T : [martin1707 website](https://sites.google.com/view/martin1707/accueil)
-    - N.T : [nouveautestament.github.io](https://nouveautestament.github.io/)
-
+- Martin : [martin1707 website](https://sites.google.com/view/martin1707/accueil)
 - Darby :
     - A.T : [Bibliquest website](https://www.bibliquest.net/Bible_table_matieres.htm)
     - N.T : [nouveautestament.github.io](https://nouveautestament.github.io/)
