@@ -3,6 +3,7 @@
 - Versification of the Old Testament may vary between translations; for example, Martin has Leviticus 6:24–30 offset compared to Darby.
 - The Martin translation is the 1707 version.
 - All translations in this repository are in the public domain.
+- Formatting details for the Bible translations in this repository are in the _instructions_ folder.
 - Chouraqui’s Old Testament would have been interesting to add, I think (but not the New Testament, which I don’t find very good), but it seems that this translation is not yet in the public domain.
 
 ## Sources
