@@ -1,6 +1,7 @@
 ## Information
 - All translations in this repository are in the **public domain**.
 - Formatting details for the Bible translations in this repository are in the _instructions_ folder.
+- **TODO**: Standardize versification among all translations, cf. the ['⋄' sign](https://github.com/Center-for-New-Testament-Restoration/transcriptions/blob/f551ca7e32745d9f4ace6a18a065c955aa34d34a/critical%20texts/RP.txt#L788) in [Manuscript Encoding Specification (MES)](https://github.com/Center-for-New-Testament-Restoration/transcriptions)
 - The numbering of the books in Cahen follows the order of the Protestant books; however, the books of Cahen are displayed in Cahen’s original order, i.e., the Jewish order.
 - Versification of the Old Testament may vary between translations; for example, Martin has Leviticus 6:24–30 offset compared to Darby.
 - The Martin translation is the 1707 version.
