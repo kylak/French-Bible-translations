@@ -109,6 +109,7 @@ NR > 1 {  # Skip header
 - Quotes: « » " '
 - Punctuation: . , ; : ! ? - —
 - Brackets: [ ] (used in some translations for additions)
+- Paragraph symbols: ¶
 
 ### 5. Sort and Merge
 
@@ -121,42 +122,6 @@ sort -n raw_output.txt > TRANSLATION_NAME.txt
 
 # Merge OT+NT if separate
 cat ot.txt nt.txt | sort -n > complete_bible.txt
-```
-
-### 6. Handle Missing Verses
-
-**Rule:** If a verse is missing in the source, add a line with reference only (no text).
-
-**Example:**
-```
-42007028 They answered, "John the Baptist..."
-42007029
-42007030 And he asked them, "But who do you say..."
-```
-Luke 7:29 is missing → blank line with reference only.
-
-**Common missing verses:**
-- Matthew: 17:21, 18:11, 23:14
-- Mark: 7:16, 9:44, 9:46, 11:26, 15:28
-- Luke: 17:36, 23:17
-- John: 5:4, 7:53
-- Acts: 8:37, 15:34, 24:7, 28:29
-- Romans: 16:24
-
-**Detection script:**
-```bash
-# For NT translations, check against nt_versification.txt
-while read -r ref count; do
-    book=$(echo $ref | cut -c1-2)
-    chap=$(echo $ref | cut -c3-5)
-    for v in $(seq 1 $count); do
-        vref=$(printf "%02d%03d%03d" $book $chap $v)
-        grep -q "^$vref" TRANSLATION.txt || echo "$vref" >> missing.txt
-    done
-done < nt_versification.txt
-
-# Add missing verses
-cat TRANSLATION.txt missing.txt | sort -n > TRANSLATION_complete.txt
 ```
 
 ## Critical Validations
