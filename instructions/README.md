@@ -15,7 +15,7 @@ The translation may contain:
 - **OT only**: Books 01-39
 - **NT only**: Books 40-66
 
-**IMPORTANT**: Only add missing verse references for books that EXIST in the source. If the translation is NT-only, do NOT add OT references. If OT-only, do NOT add NT references.
+**IMPORTANT**: If the translation is NT-only, do NOT add OT references. If OT-only, do NOT add NT references.
 
 ## Step-by-Step Process
 
@@ -128,28 +128,15 @@ cat ot.txt nt.txt | sort -n > complete_bible.txt
 
 ### Format Check
 ```bash
-# All lines must be: 8 digits + space + text OR 8 digits only (missing verse)
-grep -nv "^[0-9]\{8\}\( \|$\)" file.txt
+# All lines must be: 8 digits + space + text
+grep -nv "^[0-9]\{8\} .+" file.txt
 # Should return nothing
-```
-
-### Volume Check
-```bash
-# Count verses by testament
-grep -c "^[0-3][0-9]" file.txt  # OT: ~23,000 expected
-grep -c "^[4-6][0-9]" file.txt  # NT: 7,957 expected
 ```
 
 ### Residual HTML
 ```bash
 grep -n "<[^>]*>" file.txt  # Should return nothing
 grep -n "&[a-z]\+;" file.txt  # Should return nothing
-```
-
-### First/Last Verses
-```bash
-head -1 file.txt  # Should be 01001001 (Genesis) or 40001001 (Matthew for NT-only)
-tail -1 file.txt  # Should be 39... (Malachi) or 66022021 (Revelation)
 ```
 
 ### Encoding
@@ -185,18 +172,10 @@ BOOK["Hebrews"] = 58
 # Use: /<p class="paragraph-/ and filter out unwanted classes
 ```
 
-### Issue 4: Missing Entire Book
-**Problem:** Book has 0 verses after extraction
-**Solution:** Check for:
-1. Encoding issue (especially Hebrews)
-2. Different HTML class/tag
-3. Different abbreviation
-4. Book actually absent in source
-
 ## Verification Checklist
 
 **Format:**
-- [ ] All lines match `^[0-9]{8}( |$)` pattern
+- [ ] All lines match `^[0-9]{8} .+` pattern
 - [ ] References are exactly 8 digits
 - [ ] Single space between reference and text
 - [ ] File sorted numerically
@@ -205,10 +184,6 @@ BOOK["Hebrews"] = 58
 
 **Content:**
 - [ ] Correct scope (OT-only: 01-39, NT-only: 40-66, Complete: 01-66)
-- [ ] Volume matches expected (~23k OT, ~7957 NT)
-- [ ] First verse correct (01001001 or 40001001)
-- [ ] Last verse correct (39... or 66022021)
-- [ ] Missing verses added (reference-only lines)
 
 **Cleaning:**
 - [ ] No HTML tags remain
@@ -231,35 +206,11 @@ BOOK["Hebrews"] = 58
 40001002 Abraham engendra Isaac; Isaac engendra Jacob...
 ```
 
-**Example with missing verse:**
-```
-40017020 Jésus leur répondit: C'est à cause de votre incrédulité...
-40017021
-40017022 Pendant qu'ils se tenaient réunis en Galilée, Jésus leur dit...
-```
-
 ## Reference Files
 
 - `REFERENCE_BOOKS.md` - Standard book number mappings
-- `NT_versification.txt` - NT chapter/verse counts (format: `BBCCC count`)
-
-## Expected Verse Counts
-
-| Book | Code | Verses | Book | Code | Verses |
-|------|------|--------|------|------|--------|
-| Genesis | 01 | ~1530 | Matthew | 40 | 1071 |
-| Exodus | 02 | ~1210 | Mark | 41 | 678 |
-| Psalms | 19 | ~2530 | Luke | 42 | 1151 |
-| Isaiah | 23 | ~1290 | John | 43 | 879 |
-| Jeremiah | 24 | ~1360 | Acts | 44 | 1007 |
-| Ezekiel | 26 | ~1270 | Romans | 45 | 433 |
-| | | | Revelation | 66 | 404 |
-
-**Total OT:** ~23,000 verses
-**Total NT:** 7,957 verses
-**Complete Bible:** ~31,000 verses
 
 ---
 
-**Version:** 2.0
-**Last updated:** 2026-04-05
+**Version:** 3.0
+**Last updated:** 2026-04-14
