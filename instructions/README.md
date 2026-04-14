@@ -100,6 +100,9 @@ NR > 1 {  # Skip header
 
 ### 4. Text Cleaning Rules
 
+**NOTE**: For the French Darby translation, keep the '*' in "*Dieu", and in "*Seigneur". If you see a cross just before the word 'Dieu', like "✝Dieu", keep this cross.
+If it's '#' that is just before the word "Dieu", replace '#' by the '✝', do not add a whitespace between the cross you've added and the word just in front of it.
+
 **Remove:**
 - HTML tags: `/<[^>]+>/`
 - HTML entities: `&nbsp;` `&amp;` `&lt;` etc.
