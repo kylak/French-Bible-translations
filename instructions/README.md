@@ -105,6 +105,7 @@ NR > 1 {  # Skip header
 - Multiple consecutive spaces
 - Footnote markers: `*` `**` `¹` `²` `³`
 - Strong's numbers: `<1234>`
+- Alternate versification information inside the verses: `(chapter:verse)`
 
 **Keep:**
 - Accents: é è à ç ô
