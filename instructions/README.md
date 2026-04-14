@@ -15,7 +15,7 @@ The translation may contain:
 - **OT only**: Books 01-39
 - **NT only**: Books 40-66
 
-**IMPORTANT**: If the translation is NT-only, do NOT add OT references. If OT-only, do NOT add NT references.
+**IMPORTANT**: If the translation is NT-only, do NOT add OT references. If OT-only, do NOT add NT references. The final output file should have the references only present in the translation, not more.
 
 ## Step-by-Step Process
 
