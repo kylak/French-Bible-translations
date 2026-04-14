@@ -110,7 +110,7 @@ If it's '#' that is just before the word "Dieu", replace '#' by the '✝', do no
 - Multiple consecutive spaces
 - Footnote markers: `*` `**` `¹` `²` `³`
 - Strong's numbers: `<1234>`
-- Alternate versification information inside the verses: `(chapter:verse)`
+- Alternate versification information **inside** verses: `(chapter:verse)` or anything giving the information of a different versification (for example ``<chapter.verse>``, or ``[chapter verse]``).
 
 **Keep:**
 - Accents: é è à ç ô
