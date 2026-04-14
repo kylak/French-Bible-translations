@@ -6,6 +6,7 @@
 - The numbering of the books in Cahen follows the order of the Protestant books; however, the books of Cahen are displayed in Cahen’s original order, i.e., the Jewish order.
 - The Martin translation is the 1707 version.
 - Chouraqui’s Old Testament would have been interesting to add, I think (but not the New Testament, which I don’t find very good), but it seems that this translation is not yet in the public domain.
+- The Nouvelle Disposition translation doesn't contain any paragraphs.
 
 ## Sources
 - Martin : [martin1707 website](https://sites.google.com/view/martin1707/accueil)
