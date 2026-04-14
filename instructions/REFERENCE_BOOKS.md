@@ -299,3 +299,45 @@ BEGIN {
     # ... etc
 }
 ```
+---
+
+**Book order for the French translation of Samuel Cahen:**  
+1 - Genèse  
+2 - Exode  
+3 - Lévitique  
+4 - Nombres  
+5 - Deutéronome  
+6 - Josué  
+7 - Juges  
+8 - 1 Samuel  
+9 - 2 Samuel  
+10 - 1 Rois  
+11 - 2 Rois  
+12 - Esaïe  
+13 - Jérémie  
+14 - Ezéchiel  
+15 - Osée  
+16 - Joël  
+17 - Amos  
+18 - Abdias  
+19 - Jonas  
+20 - Michée  
+21 - Nahoum  
+22 - Habakkouk  
+23 - Sophonie  
+24 - Aggée  
+25 - Zacharie  
+26 - Malachie  
+27 - Psaumes  
+28 - Proverbes  
+29 - Job  
+30 - Cantique des cantiques  
+31 - Ruth  
+32 - Lamentations  
+33 - Ecclésiaste  
+34 - Esther  
+35 - Daniel  
+36 - Esdras  
+37 - Néhémie  
+38 - 1 Chroniques  
+39 - 2 Chroniques  
