@@ -6,7 +6,7 @@
 - The numbering of the books in Cahen follows the order of the Protestant books; however, the books of Cahen are displayed in Cahen’s original order, i.e., the Jewish order.
 - Martin's translation is the 1707 version with modernized spelling and brackets replacing italics.  
 - Chouraqui’s Old Testament would have been interesting to add, I think (but not the New Testament, which I don’t find very good), but it seems that this translation is not yet in the public domain.
-- The [Nouvelle Disposition](https://nouveautestament.github.io/edition/francais_simple/index.html) translation doesn't contain any paragraphs.
+- The [Nouvelle Disposition](https://nouveautestament.github.io/edition/francais_simple/index.html) translation doesn't contain any paragraphs. The Martin translation contains paragraphs however I didn't find one transcription having them.
 - The Darby translation contains, next to the word "Dieu", the following symbols *, and ✝, in order to differenciate Elohim (no symbol), El (\*), and Eloah (✝) ; this comes from the translation itself, [cf. the preface of the translation](https://www.bibliquest.net/Bible/Annexes/Bible-Signes_et_abreviations.htm).
 
 ## Sources
