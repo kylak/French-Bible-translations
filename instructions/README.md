@@ -9,7 +9,7 @@ Convert any Bible translation (HTML, CSV, text, etc.) to standardized format: `b
 
 **Example:** `01001001 In the beginning God created the heavens and the earth.`
 
-**IMPORTANT**: Do not sort the verses by their references in the final output file, but preserve the original order of the verses present in the translation.
+**IMPORTANT**: Do not sort the verses (nor books) by their references in the final output file, but preserve the original order of the verses (like of the books) present in the translation.
 
 ## Scope Handling
 The translation may contain:
