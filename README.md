@@ -9,10 +9,6 @@
 
 ## Sources
 - Martin : [martin1707 website](https://sites.google.com/view/martin1707/accueil)
-- Darby :
-    - A.T : [Bibliquest website](https://www.bibliquest.net/Bible_table_matieres.htm)
-    - N.T : [nouveautestament.github.io](https://nouveautestament.github.io/)
-
+- Darby : [Bibliquest website](https://www.bibliquest.net/Bible_table_matieres.htm)
 - Cahen : [Sefaria GitHub data](https://github.com/Sefaria/Sefaria-Data/tree/23065165369399cccc95c6004bce1ebe28620e45/sources/French%20Levangile%20Tanakh)
-
 - Nouvelle Disposition : [nouveautestament.github.io](https://nouveautestament.github.io/)
