@@ -4,7 +4,7 @@
 
 URL="https://www.bibliquest.net/Bible/BibleJNDhtm-Bible.htm"
 DOWNLOADED_FILE="BibleJNDhtm-Bible.htm"
-LOCAL_FILE="Darby.htm"
+LOCAL_FILE="source.htm"
 
 echo "Téléchargement de $URL..."
 curl -L -o "$DOWNLOADED_FILE" "$URL"
