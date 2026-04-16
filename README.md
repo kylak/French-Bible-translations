@@ -9,5 +9,4 @@
 - The Darby translation contains, next to the word "Dieu", the following symbols *, and ✝, in order to differenciate Elohim (no symbol), El (\*), and Eloah (✝) ; this comes from the translation itself, [cf. the preface of the translation](https://www.bibliquest.net/Bible/Annexes/Bible-Signes_et_abreviations.htm).
 
 ## Sources
-- Martin : [martin1707 website](https://sites.google.com/view/martin1707/accueil)
 - Cahen : [Sefaria GitHub data](https://github.com/Sefaria/Sefaria-Data/tree/23065165369399cccc95c6004bce1ebe28620e45/sources/French%20Levangile%20Tanakh)
