@@ -4,7 +4,7 @@
 
 URL="https://raw.githubusercontent.com/nouveautestament/nouveautestament.github.io/8a69eb9b2c2102c6eabeb114dec7a9c3d2f44ae1/database/fr/NOUVELLE_DISPOSITION_S.txt"
 DOWNLOADED_FILE="NOUVELLE_DISPOSITION_S.txt"
-LOCAL_FILE="ND.txt"
+LOCAL_FILE="source"
 
 echo "Téléchargement de $URL..."
 curl -L -o "$DOWNLOADED_FILE" "$URL"
