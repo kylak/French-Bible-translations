@@ -1,4 +1,3 @@
-## Information
 - All translations in this repository are in the **public domain**. The Martin, Darby, and Cahen translations are in the public domain as their authors have been deceased for over 70 years (cf. French law). Similarly, the author of the Nouvelle Disposition has explicitly released his work into the public domain (cf. [this link](https://nouveautestament.github.io/edition/francais_simple/index.html)).
 - Formatting details for the Bible translations in this repository are in the [instructions](https://github.com/kylak/French-Bible-translations/tree/cce16e6d4064c1eff119197a841120a5f8048bca/instructions) folder.
 - Versification may vary between translations; for example, Martin has Leviticus 6:24–30 offset compared to Darby.
