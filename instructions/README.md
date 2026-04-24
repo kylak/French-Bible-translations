@@ -55,7 +55,7 @@ Map source abbreviations to book numbers (01-66). See `REFERENCE_BOOKS.txt` for 
 
 **IMPORTANT**: If the translation doesn't contain any paragraph symbol (¶) but contains paragraphs, represent these paragraphs by adding the ¶ symbol in the beginning of verses that start new paragraphs. Whenever you add the ¶ symbol, don't put a whitespace between ¶ and the first word of the verse.
 
-**NOTE**: For the French Darby translation, consider any 'Note' CSS class on <p> HTML element has meaning end of paragraph.
+**NOTE**: For the French Darby translation, consider any 'Note' CSS class on <p> HTML element as meaning end of paragraph and beginning of a new one.
 
 **AWK Template for HTML:**
 ```awk
