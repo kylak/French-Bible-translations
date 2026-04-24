@@ -32,11 +32,11 @@ echo "Remote path: $REMOTE_PATH"
 echo "Local source: $LOCAL_SOURCE_DIR"
 echo ""
 
-# Create temporary directory for downloaded files
+# Create temporary directory
 TEMP_DIR=$(mktemp -d)
 trap "rm -rf $TEMP_DIR" EXIT
 
-echo "Fetching file list from GitHub API..."
+echo "Fetching file list with SHA hashes from GitHub API..."
 
 # URL-encode the remote path (replace spaces with %20)
 ENCODED_REMOTE_PATH=$(echo "$REMOTE_PATH" | sed 's/ /%20/g')
@@ -44,6 +44,9 @@ ENCODED_REMOTE_PATH=$(echo "$REMOTE_PATH" | sed 's/ /%20/g')
 # Get the file list from GitHub API
 API_URL="https://api.github.com/repos/$REPO_OWNER/$REPO_NAME/contents/$ENCODED_REMOTE_PATH?ref=$COMMIT_HASH"
 FILE_LIST=$(curl -s "$API_URL")
+
+# Save the full JSON response for SHA extraction
+echo "$FILE_LIST" > "$TEMP_DIR/api_response.json"
 
 # Check for API errors
 if [ -z "$FILE_LIST" ]; then
@@ -117,9 +120,9 @@ if [ "$REMOTE_FILES" != "$LOCAL_FILES" ]; then
     exit 1
 fi
 
-echo "File names match. Checking file contents..."
+echo "File names match. Comparing file hashes..."
 
-# Compare each file
+# Compare each file using SHA hashes
 DIFFERENCES=0
 CHECKED=0
 while IFS= read -r filename; do
@@ -127,29 +130,38 @@ while IFS= read -r filename; do
         continue
     fi
 
-    # URL-encode the filename (handle spaces)
-    ENCODED_FILENAME=$(echo "$filename" | sed 's/ /%20/g')
-    ENCODED_PATH=$(echo "$REMOTE_PATH" | sed 's/ /%20/g')
+    # Extract the SHA for this file from the API response
+    # Git stores files as blobs with SHA-1 hash
+    REMOTE_SHA=$(grep -A 3 "\"name\": \"$filename\"" "$TEMP_DIR/api_response.json" | grep '"sha":' | sed 's/.*"sha": "\([^"]*\)".*/\1/')
 
-    # Download remote file
-    RAW_URL="https://raw.githubusercontent.com/$REPO_OWNER/$REPO_NAME/$COMMIT_HASH/$ENCODED_PATH/$ENCODED_FILENAME"
-
-    if ! curl -sf "$RAW_URL" -o "$TEMP_DIR/$filename"; then
-        echo "✗ ERROR downloading: $filename"
+    if [ -z "$REMOTE_SHA" ]; then
+        echo "✗ ERROR: Could not extract SHA for: $filename"
         DIFFERENCES=$((DIFFERENCES + 1))
         continue
     fi
 
-    # Compare files
-    if ! cmp -s "$LOCAL_SOURCE_DIR/$filename" "$TEMP_DIR/$filename"; then
-        echo "✗ DIFFERS: $filename"
+    # Check if local file exists
+    LOCAL_FILE="$LOCAL_SOURCE_DIR/$filename"
+    if [ ! -f "$LOCAL_FILE" ]; then
+        echo "✗ MISSING: $filename"
+        DIFFERENCES=$((DIFFERENCES + 1))
+        continue
+    fi
+
+    # Calculate git blob SHA of local file (git format: "blob <size>\0<content>")
+    FILE_SIZE=$(wc -c < "$LOCAL_FILE")
+    LOCAL_SHA=$(( printf "blob %d\0" "$FILE_SIZE"; cat "$LOCAL_FILE" ) | sha1sum | cut -d' ' -f1)
+
+    # Compare hashes
+    if [ "$LOCAL_SHA" != "$REMOTE_SHA" ]; then
+        echo "✗ DIFFERS: $filename (local: ${LOCAL_SHA:0:8}... remote: ${REMOTE_SHA:0:8}...)"
         DIFFERENCES=$((DIFFERENCES + 1))
     fi
 
     CHECKED=$((CHECKED + 1))
 
-    # Show progress every 50 files
-    if [ $((CHECKED % 50)) -eq 0 ]; then
+    # Show progress every 100 files
+    if [ $((CHECKED % 100)) -eq 0 ]; then
         echo "Checked $CHECKED files..."
     fi
 done <<< "$REMOTE_FILES"
