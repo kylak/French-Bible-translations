@@ -11,7 +11,6 @@ BRANCH="master"
 REMOTE_PATH="sources/French Levangile Tanakh"
 LOCAL_SOURCE_DIR="$(cd "$(dirname "$0")" && pwd)/source"
 
-echo "=== CAHEN Source Verification ==="
 echo "Repository: $REPO_OWNER/$REPO_NAME"
 echo "Branch: $BRANCH"
 echo ""
@@ -136,14 +135,14 @@ while IFS= read -r filename; do
     RAW_URL="https://raw.githubusercontent.com/$REPO_OWNER/$REPO_NAME/$COMMIT_HASH/$ENCODED_PATH/$ENCODED_FILENAME"
 
     if ! curl -sf "$RAW_URL" -o "$TEMP_DIR/$filename"; then
-        echo "  ✗ ERROR downloading: $filename"
+        echo "✗ ERROR downloading: $filename"
         DIFFERENCES=$((DIFFERENCES + 1))
         continue
     fi
 
     # Compare files
     if ! cmp -s "$LOCAL_SOURCE_DIR/$filename" "$TEMP_DIR/$filename"; then
-        echo "  ✗ DIFFERS: $filename"
+        echo "✗ DIFFERS: $filename"
         DIFFERENCES=$((DIFFERENCES + 1))
     fi
 
@@ -151,7 +150,7 @@ while IFS= read -r filename; do
 
     # Show progress every 50 files
     if [ $((CHECKED % 50)) -eq 0 ]; then
-        echo "  Checked $CHECKED files..."
+        echo "Checked $CHECKED files..."
     fi
 done <<< "$REMOTE_FILES"
 
