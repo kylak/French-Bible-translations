@@ -23,7 +23,7 @@ BEGIN {
 
 # Detect chapter changes
 /<h2 class="Chapitre">/ {
-    if (match($0, /<a name="[an]t[0-9]+_([0-9]+)">/, arr)) {
+    if (match($0, /<a name="[an]t[0-9_]+_([0-9]+)">/, arr)) {
         chapter = arr[1] + 0
         # Don't set pending_paragraph_marker for chapter changes
     }
