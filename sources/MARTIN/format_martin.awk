@@ -88,7 +88,8 @@ BEGIN {
     gsub(/<[^>]+>/, "", clean_line)
     
     # Now try to match book ref, chapter, verse in the cleaned line
-    if (match(clean_line, /([A-Za-z0-9]+) ([0-9]+):([0-9]+) (.+)/, arr)) {
+    # Include accented characters for French book abbreviations like "Hé", "Ésaïe", etc.
+    if (match(clean_line, /([A-Za-z0-9éèçàûîôÿœëäïöüËÄÏÖÜ]+) ([0-9]+):([0-9]+) (.+)/, arr)) {
         abbrev = arr[1]
         chapter = arr[2]
         verse = arr[3]
