@@ -79,16 +79,24 @@ BEGIN {
 
 # Process each line
 {
-    # Extract book reference, chapter, verse, and text
-    # First strip all HTML tags to get clean text, but preserve the reference
+    # PIÈGE 1 ÉVITÉ: Le fichier source contient plusieurs classes de paragraphes
+    # (paragraph-Standard, paragraph-P6, paragraph-P8, paragraph-P9, etc.), exemple:
+    # <p class="paragraph-Standard">Gn 10:26 Et Joktan engendra Almodad, Séleph, Hatsarmaveth, et Jérah,</p>
+    # <p class="paragraph-P8">Gn 10:27 Hadoram, Uzal, Dikla,</p>
+    # Solution: On ne filtre PAS par classe spécifique, on capture TOUTES les balises <p>
+    #
+    # PIÈGE 2 ÉVITÉ: Certains versets contiennent des balises à l'intérieur
+    # Exemple 1: <p class="paragraph-Standard"><a id="OLE_LINK29"/>Gn 50:26 texte</p>
+    # Exemple 2: <p class="paragraph-Standard"><span class="text-T4">Js 15:23 texte</span></p>
+    # Solution: D'abord nettoyer TOUTES les balises HTML, puis extraire.
     line = $0
-    
-    # Remove all HTML tags to find the reference pattern
     clean_line = line
     gsub(/<[^>]+>/, "", clean_line)
     
-    # Now try to match book ref, chapter, verse in the cleaned line
-    # Include accented characters for French book abbreviations like "Hé", "Ésaïe", etc.
+    # PIÈGE 3 ÉVITÉ: Les abréviations accentuées (Hé, Ésaïe, Esdras) ne sont PAS
+    # capturées par le pattern [A-Za-z0-9]+ (qui n'inclut pas é, è, ç, etc.)
+    # Exemple: <p class="paragraph-Standard">Hé 1:1 Dieu ayant anciennement...</p>
+    # Solution: pattern étendu avec les caractères accentués franquais.
     if (match(clean_line, /([A-Za-z0-9éèçàûîôÿœëäïöüËÄÏÖÜ]+) ([0-9]+):([0-9]+) (.+)/, arr)) {
         abbrev = arr[1]
         chapter = arr[2]
@@ -104,15 +112,23 @@ BEGIN {
         gsub(/&nbsp;/, " ", text)
         gsub(/&[a-z]+;/, "", text)
         
-        # Clean up whitespace
+        # PIÈGE 4 ÉVITÉ: Espaces multiples créés par suppression des balises internes
+        # Une suppression de balise au sein du texte crée un espace :
+        # Exemple 1: "<span class='text-T5'>Js 15:26 Amam,</span><a id='OLE_LINK71'/><span class='text-T5'> Sémah</span>"
+        #          → Après nettoyage balises: "Js 15:26 Amam,  Sémah" (deux espaces consécutifs)
+        #          → Après gsub(/[ \t]+/, " ", text): "Js 15:26 Amam, Sémah"
+        # Exemple 2: "<span class='text-T3'>Ps 25:5 [He. Vau.] </span>Adresse-moi..."
+        #          → Après nettoyage balises: "Ps 25:5 [He. Vau.]  Adresse-moi..." (deux espaces consécutifs)
+        #          → Après gsub: "Ps 25:5 [He. Vau.] Adresse-moi..."
+        # Les gsub début/fin sont une précaution (pas de cas trouvé dans le fichier source).
         gsub(/^[ \t]+/, "", text)
         gsub(/[ \t]+$/, "", text)
         gsub(/[ \t]+/, " ", text)
         
-        # Check if we have a valid book abbreviation
+        # Validation: vérifier que l'abréviation existe et que le texte n'est pas vide
         if (abbrev in BOOK && text != "" && text != ".") {
             book_num = BOOK[abbrev]
-            # Format: bbcccvvv (zero-padded)
+            # Format final: bbcccvvv (8 chiffres) + espace + texte
             ref = sprintf("%02d%03d%03d", book_num, chapter+0, verse+0)
             print ref " " text
         }
