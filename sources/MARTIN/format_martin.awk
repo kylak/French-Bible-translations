@@ -93,7 +93,7 @@ BEGIN {
     clean_line = line
     gsub(/<[^>]+>/, "", clean_line)
     
-    # PIÈGE 3 ÉVITÉ: Les abréviations accentuées (Hé, Ésaïe, Esdras) ne sont PAS
+    # PIÈGE 3 ÉVITÉ: Les abréviations accentuées (ex: Hé, Ésaïe) ne sont PAS
     # capturées par le pattern [A-Za-z0-9]+ (qui n'inclut pas é, è, ç, etc.)
     # Exemple: <p class="paragraph-Standard">Hé 1:1 Dieu ayant anciennement...</p>
     # Solution: pattern étendu avec les caractères accentués franquais.
@@ -112,18 +112,11 @@ BEGIN {
         gsub(/&nbsp;/, " ", text)
         gsub(/&[a-z]+;/, "", text)
         
-        # PIÈGE 4 ÉVITÉ: Espaces multiples créés par suppression des balises internes
-        # Une suppression de balise au sein du texte crée un espace :
-        # Exemple 1: "<span class='text-T5'>Js 15:26 Amam,</span><a id='OLE_LINK71'/><span class='text-T5'> Sémah</span>"
-        #          → Après nettoyage balises: "Js 15:26 Amam,  Sémah" (deux espaces consécutifs)
-        #          → Après gsub(/[ \t]+/, " ", text): "Js 15:26 Amam, Sémah"
-        # Exemple 2: "<span class='text-T3'>Ps 25:5 [He. Vau.] </span>Adresse-moi..."
-        #          → Après nettoyage balises: "Ps 25:5 [He. Vau.]  Adresse-moi..." (deux espaces consécutifs)
-        #          → Après gsub: "Ps 25:5 [He. Vau.] Adresse-moi..."
-        # Les gsub début/fin sont une précaution (pas de cas trouvé dans le fichier source).
-        gsub(/^[ \t]+/, "", text)
-        gsub(/[ \t]+$/, "", text)
-        gsub(/[ \t]+/, " ", text)
+        # Le fichier source ne contient pas d'espaces superflux,
+        # donc les gsub ci-dessous ne sont pas utiles.
+        # gsub(/^[ \t]+/, "", text)
+        # gsub(/[ \t]+$/, "", text)
+        # gsub(/[ \t]+/, " ", text)
         
         # Validation: vérifier que l'abréviation existe et que le texte n'est pas vide
         if (abbrev in BOOK && text != "" && text != ".") {
