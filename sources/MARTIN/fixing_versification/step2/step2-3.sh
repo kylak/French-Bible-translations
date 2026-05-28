@@ -1,4 +1,4 @@
-#!/nix/store/lfbzxs5wyqd2122mpbj5azkxhxspw9cd-bash-interactive-5.3p3/bin/bash
+#!/bin/sh
 # $1 : fichier avec les bbcccvvv cibles
 # $2 : fichier à nettoyer
 
@@ -15,8 +15,14 @@ while IFS= read -r line; do
         vvv="${id:5:3}"
         c=$((10#$ccc))
         v=$((10#$vvv))
-        if [[ "$line" =~ "^${id} *\($c:$v\)" ]]; then
-            line=$(echo "$line" | sed "s/ *($c:$v) */ /g; s/  */ /g")
+        # Capture le PREMIER marqueur (X:Y) après l'ID
+        if [[ "$line" =~ ^${id}[[:space:]]*\(([0-9]+):([0-9]+)\) ]]; then
+            found_c="${BASH_REMATCH[1]}"
+            found_v="${BASH_REMATCH[2]}"
+            # Vérifie que ce marqueur correspond à c et v de l'ID
+            if [[ "$found_c" == "$c" && "$found_v" == "$v" ]]; then
+                line=$(echo "$line" | sed "s/ *($found_c:$found_v) */ /g; s/  */ /g")
+            fi
         fi
     fi
     echo "$line"
