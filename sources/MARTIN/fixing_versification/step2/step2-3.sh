@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # $1 : fichier avec les bbcccvvv cibles
 # $2 : fichier à nettoyer
 
