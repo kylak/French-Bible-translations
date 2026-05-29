@@ -76,37 +76,16 @@ cat > $TMP << 'AWKEND'
                 new_id = sprintf("%s%03d%03d", livre, marker_chapter, marker_verse)
                 
                 # Sortir le segment avant le marqueur avec l'ID courant
-                if (first_segment) {
-                    if (length(text_before) > 0) {
-                        printf "%s %s\n", current_id, text_before
-                    }
-                    first_segment = 0
-                } else {
-                    if (length(text_before) > 0) {
-                        printf "%s %s\n", current_id, text_before
-                    }
+                if (length(text_before) > 0) {
+                    # Nettoyer l'espace en fin de text_before
+                    sub(/[ \t]+$/, "", text_before)
+                    printf "%s %s\n", current_id, text_before
                 }
-                
-                # Fusionner avec la ligne suivante SEULEMENT si son ID correspond
-                if (getline next_line > 0) {
-                    next_id = substr(next_line, 1, 8)
-                    if (next_id == new_id) {
-                        next_rest = substr(next_line, 9)
-                        gsub(/^[ \t]+/, "", next_rest)
-                        text_after = text_after " " next_rest
-                    } else {
-                        # La ligne suivante n'a pas le bon ID, ne pas fusionner
-                        # Mais on a déjà lu la ligne avec getline, donc on doit la traiter
-                        # On la met de côté pour la traiter dans la prochaine itération
-                        # Mais awk ne permet pas ça facilement...
-                        # Solution : output la ligne suivant séparément
-                        printf "%s %s\n", new_id, text_after
-                        print next_line
-                        next
-                    }
-                }
-                
-                # Mettre à jour pour continuer
+                first_segment = 0
+
+                # Chaque verset MARTIN est sur sa propre ligne ; on ne fusionne pas
+                # avec la ligne suivante. On continue simplement à scanner le texte
+                # restant (qui pourrait contenir d'autres marqueurs).
                 current_id = new_id
                 current_text = text_after
                 pos = 1
@@ -140,12 +119,21 @@ AWKEND
 awk -f $TMP "$1" | sed '/^[0-9]\{8\}$/d' | \
 awk '
 {
-    if (NF == 0) { print ""; next }
+    if (NF == 0) {
+        if (length(saved_line) > 0) print saved_line
+        saved_line = ""
+        prev_id = ""
+        print ""
+        next
+    }
     current_id = substr($0, 1, 8)
     current_rest = substr($0, 9)
     gsub(/^[ \t]+/, "", current_rest)
     if (current_id == prev_id) {
-        printf "%s %s\n", saved_line, current_rest
+        # Accumuler dans saved_line au lieu d''imprimer tout de suite,
+        # pour éviter le doublon (l''ancien saved_line non-fusionné
+        # serait sinon imprimé à la transition suivante ou en END).
+        saved_line = saved_line " " current_rest
     } else {
         if (length(saved_line) > 0) print saved_line
         saved_line = $0
