@@ -97,7 +97,7 @@ BEGIN {
     # capturées par le pattern [A-Za-z0-9]+ (qui n'inclut pas é, è, ç, etc.)
     # Exemple: <p class="paragraph-Standard">Hé 1:1 Dieu ayant anciennement...</p>
     # Solution: pattern étendu avec les caractères accentués franquais.
-    if (match(clean_line, /([A-Za-z0-9éèçàûîôÿœëäïöüËÄÏÖÜ]+) ([0-9]+):([0-9]+) (.+)/, arr)) {
+    if (match(clean_line, /([A-Za-z0-9éèçàâêîôûùœæëäïöüÉÈÇÀÂÊÎÔÛÙŒÆËÄÏÖÜ]+) ([0-9]+):([0-9]+) (.+)/, arr)) {
         abbrev = arr[1]
         chapter = arr[2]
         verse = arr[3]
@@ -110,7 +110,7 @@ BEGIN {
         gsub(/&quot;/, "\"", text)
         gsub(/&apos;/, "'", text)
         gsub(/&nbsp;/, " ", text)
-        gsub(/&[a-z]+;/, "", text)
+        gsub(/&[a-zA-Z]+;/, "", text)
         
         # Le fichier source ne contient pas d'espaces superflux,
         # donc les gsub ci-dessous ne sont pas utiles.

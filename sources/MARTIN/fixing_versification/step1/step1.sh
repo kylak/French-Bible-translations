@@ -6,7 +6,7 @@
 #         - X > chapitre_actuel, OU
 #         - X == chapitre_actuel ET Y > verset_actuel
 #
-# Utilisation : ./fix_martin.sh <fichier_source> > sortie.txt
+# Utilisation : ./step1.sh <fichier_source> > sortie.txt
 # ===============================================================================
 
 [ -z "$1" ] || [ ! -f "$1" ] && { echo "Usage: $0 <fichier>" >&2; exit 1; }

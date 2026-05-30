@@ -191,18 +191,38 @@ AWKEND
 # Mais 2 Co 13:13 « ...saluent. La grâce... » est laissé tel quel (point).
 awk -f $PRE "$1" | awk -f $TMP | sed '/^[0-9]\{8\}$/d' | \
 awk '
+# tolower() de gawk ne convertit pas systématiquement les majuscules
+# accentuées selon la locale ; on fournit une table de correspondance
+# pour garantir un comportement déterministe.
+function lower_char(c) {
+    if (c in ACCENT_LOWER) return ACCENT_LOWER[c]
+    return tolower(c)
+}
+function lower_word(w,    i, n, out) {
+    n = length(w)
+    out = ""
+    for (i = 1; i <= n; i++) out = out lower_char(substr(w, i, 1))
+    return out
+}
 function maybe_lower(prev_tail, frag,    word, lcword) {
     if (prev_tail !~ /[,;:]$/) return frag
     if (frag !~ /^[[:upper:]ÀÂÄÇÉÈÊËÎÏÔÖÙÛÜŒÆ]/) return frag
     if (!match(frag, /^[A-Za-zÀ-ÿ]+/)) return frag
     word = substr(frag, RSTART, RLENGTH)
-    lcword = tolower(word)
+    lcword = lower_word(word)
     if (lcword in COMMON) {
-        return tolower(substr(frag, 1, 1)) substr(frag, 2)
+        return lower_char(substr(frag, 1, 1)) substr(frag, 2)
     }
     return frag
 }
 BEGIN {
+    ACCENT_LOWER["À"]="à"; ACCENT_LOWER["Â"]="â"; ACCENT_LOWER["Ä"]="ä"
+    ACCENT_LOWER["Ç"]="ç"; ACCENT_LOWER["É"]="é"; ACCENT_LOWER["È"]="è"
+    ACCENT_LOWER["Ê"]="ê"; ACCENT_LOWER["Ë"]="ë"
+    ACCENT_LOWER["Î"]="î"; ACCENT_LOWER["Ï"]="ï"
+    ACCENT_LOWER["Ô"]="ô"; ACCENT_LOWER["Ö"]="ö"
+    ACCENT_LOWER["Ù"]="ù"; ACCENT_LOWER["Û"]="û"; ACCENT_LOWER["Ü"]="ü"
+    ACCENT_LOWER["Œ"]="œ"; ACCENT_LOWER["Æ"]="æ"
     split("vu et mais car or ou donc ni si sinon quand lorsque lors depuis " \
           "après avant puis comme parce pourquoi quoique alors encore déjà " \
           "néanmoins toutefois pourtant cependant aussi ainsi même " \
