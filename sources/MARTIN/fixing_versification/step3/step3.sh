@@ -25,36 +25,39 @@ PRE=$(mktemp)
 trap "rm -f $TMP $PRE" EXIT
 
 # Pass 0 (pré-traitement) : MARTIN_1707.txt contient parfois des versets
-# insérés par découpe d'un verset original. Quand le marqueur arrière sur
-# un verset K fait partie d'une SÉRIE (le verset K+1 a lui aussi un
-# marqueur arrière), c'est le motif typique d'un décalage de versification
-# où le verset K est standalone et la fusion a eu lieu AVANT la série,
-# entre deux versets non-marqués. On recule alors l'ID du verset K-1 d'une
-# unité pour qu'il fusionne (passe 2) avec le verset K-2.
+# insérés par découpe d'un verset original. Quand on doit détecter ce cas,
+# on recule l'ID du verset K-1 d'une unité pour qu'il fusionne (passe 2)
+# avec le verset K-2, reconstruisant l'original.
 #
-# Si le marqueur arrière est isolé (un seul, pas de série), on ne fait rien
-# de spécial : la fusion par même-ID naturelle absorbera le verset K dans
-# son prédécesseur immédiat (cas 1 Co 3:23, 2 Co 13:14, ...).
+# Pushback déclenché si l'une des conditions s'applique :
+#   (a) SÉRIE : la ligne K+1 a aussi un marqueur arrière (ex. Rm 3, Rm 8).
+#   (b) ISOLÉ + PHRASE TERMINÉE : la ligne K n'a qu'un seul marqueur, ET
+#       le verset précédent non-marqué finit par . ! ou ? (ex. 2 Co 13:14).
 #
-# Exemples :
-#   Rm 3:24 (3:23) avec Rm 3:25 (3:24) aussi marqué → série → on recule
-#   Rm 3:23 vers Rm 3:22.
-#   1 Co 3:23 (3:22) avec 1 Co 4:1 sans marqueur → isolé → pas de pushback,
-#   1 Co 3:22 + 3:23 fusionneront naturellement sur l'ID 46003022.
+# Si aucune des deux : fusion naturelle par même-ID (ex. 1 Co 3:23 dont
+# le précédent finit par une virgule).
 cat > $PRE << 'PREEND'
 {
     lines[NR] = $0
 }
 END {
     n = NR
-    # Première passe : repérer les marqueurs arrière.
+    # Première passe : repérer les marqueurs arrière et compter les marqueurs.
     for (i = 1; i <= n; i++) {
         is_back[i] = 0
+        nmark[i] = 0
         line = lines[i]
         id = substr(line, 1, 8)
         if (id !~ /^[0-9]{8}$/) continue
         text = substr(line, 9)
         sub(/^[ \t]+/, "", text)
+        # Compter tous les marqueurs (X:Y) dans le texte.
+        t = text
+        while (match(t, /\([0-9]+:[0-9]+\)/)) {
+            nmark[i]++
+            t = substr(t, RSTART + RLENGTH)
+        }
+        # Détecter un marqueur arrière en tête.
         if (match(text, /^\(([0-9]+):([0-9]+)\)/, arr)) {
             c = int(substr(id, 3, 3))
             v = int(substr(id, 6, 3))
@@ -67,18 +70,27 @@ END {
         }
     }
 
-    # Deuxième passe : appliquer le pushback uniquement aux débuts de série
-    # (lignes arrière dont la suivante est aussi arrière).
+    # Deuxième passe : appliquer le pushback selon (a) ou (b).
     for (i = 1; i <= n; i++) {
-        if (!is_back[i] || !is_back[i+1] || i == 1) continue
+        if (!is_back[i] || i == 1) continue
         cur_id = substr(lines[i], 1, 8)
         new_id = sprintf("%s%03d%03d", substr(cur_id, 1, 2), mc_a[i], mv_a[i])
         prev_id = substr(lines[i-1], 1, 8)
         prev_text = substr(lines[i-1], 9)
         sub(/^[ \t]+/, "", prev_text)
-        # Pré-requis : le précédent partage l'ID-cible et n'a pas de marqueur.
         if (prev_id != new_id) continue
         if (prev_text ~ /^\([0-9]+:[0-9]+\)/) continue
+
+        # (a) Série : la ligne suivante a aussi un marqueur arrière.
+        cond_a = is_back[i+1]
+        # (b) Isolé : un seul marqueur sur i, ET précédent finit par .!?.
+        prev_trim = prev_text
+        sub(/[ \t]+$/, "", prev_trim)
+        last_char = substr(prev_trim, length(prev_trim), 1)
+        cond_b = (nmark[i] == 1 && last_char ~ /[.!?]/)
+
+        if (!cond_a && !cond_b) continue
+
         pc = int(substr(prev_id, 3, 3))
         pv = int(substr(prev_id, 6, 3))
         if (pv <= 1) continue
