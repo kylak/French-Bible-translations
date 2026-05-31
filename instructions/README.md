@@ -121,17 +121,16 @@ If it's '#' that is just before the word "Dieu", replace '#' by the '✝', do no
 - Brackets: [ ] (used in some translations for additions)
 - Paragraph symbols: ¶
 
-### 5. Sort and Merge
+### 5. Extract and Merge
+
+**IMPORTANT**: Do not sort the output. Preserve the original order of verses (and books) as they appear in the source translation.
 
 ```bash
-# Extract
-awk -f parse.awk source.html > raw_output.txt
+# Extract (order preserved)
+awk -f parse.awk source.html > TRANSLATION_NAME.txt
 
-# Sort numerically
-sort -n raw_output.txt > TRANSLATION_NAME.txt
-
-# Merge OT+NT if separate
-cat ot.txt nt.txt | sort -n > complete_bible.txt
+# Merge OT+NT if separate — concatenate, do NOT sort
+cat ot.txt nt.txt > complete_bible.txt
 ```
 
 ## Critical Validations
@@ -188,7 +187,7 @@ BOOK["Hebrews"] = 58
 - [ ] All lines match `^[0-9]{8} .+` pattern
 - [ ] References are exactly 8 digits
 - [ ] Single space between reference and text
-- [ ] File sorted numerically
+- [ ] Verse order matches the original translation (NOT sorted numerically)
 - [ ] UTF-8 encoding
 - [ ] Unix line endings (LF, not CRLF)
 
