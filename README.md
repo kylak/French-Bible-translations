@@ -25,6 +25,5 @@ These guidelines have been written to help avoid ambiguous, misleading, or incor
 - ANONYMOUS - 1855 (often badly named MARTIN)
 - CHOURAQUI
 - DDB - 2003 (often badly named CHOURAQUI)
-- DDB - 2020 (often badly named CHOURAQUI)
 - CERF - 2020 (often badly named CHOURAQUI)
  
