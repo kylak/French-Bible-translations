@@ -8,7 +8,7 @@
 - TODO (but not feasible without the help of [the CNTR](https://greekcntr.org/home/index.html)): Standardize versification among all translations, cf. the ['⋄' sign](https://github.com/Center-for-New-Testament-Restoration/transcriptions/blob/f551ca7e32745d9f4ace6a18a065c955aa34d34a/critical%20texts/RP.txt#L788) in [Manuscript Encoding Specification (MES)](https://github.com/Center-for-New-Testament-Restoration/transcriptions?tab=readme-ov-file#description). More generally, making the translations adhering to MES.
 
 ## Guidelines for properly naming a translation
-These guidelines have been written to help avoid ambiguous, misleading, or incorrect information when naming translations.
+These guidelines have been written to help avoid ambiguous, misleading, or incorrect naming, and to prevent different translations from sharing the same name.
  
 1. **Always name the translation after its author(s)** — the translator's name if the author is the translator, the reviser's name if the author is a reviser, or the company's name if the work was done by a company. Alternatively, use the project name (e.g., *New King James Version*), provided it is not ambiguous with another translation. When naming by the project name, you may add the **date** if the project name could still be ambiguous.  
 Notes:
