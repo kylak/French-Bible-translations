@@ -11,7 +11,9 @@
 These guidelines have been written to help avoid ambiguous, misleading, or incorrect information when naming translations.
  
 1. **Always name the translation after its author(s)** — the translator's name if the author is the translator, the reviser's name if the author is a reviser, or the company's name if the work was done by a company. Alternatively, use the project name (e.g., *New King James Version*), provided it is not ambiguous with another translation. When naming by the project name, you may add the **date** if the project name could still be ambiguous.  
-Note: if the translator dies during the work and asks someone else to complete it, the translation may still be named after the deceased author.
+Notes:
+    - if the translator dies during the work and asks someone else to complete it, the translation may still be named after the deceased author.
+    - a 'revision' of a translation that only consists of modernizing spelling or using brackets for the italics is not considered a revision but as the same translation, so the name shouldn't change.
 2. **If an author has produced several versions of their translation**, use `NAME` for the most recent one only; name all the others `NAME - DATE`, where `DATE` is the year of that edition. However, if the author is still alive, name the translation `NAME - DATE` even when it is the latest edition; this avoids having to rename it whenever a new edition is released.
 3. **If the author's name is unknown**, name the translation `ANONYMOUS - DATE`, or simply `DATE`.
 ### Examples (French translations)
