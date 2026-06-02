@@ -15,7 +15,7 @@ Notes:
     - if the translator dies during the work and asks someone else to complete it, the translation may still be named after the deceased author.
     - a 'revision' of a translation that only consists of modernizing spelling or using brackets for the italics is not considered a revision but as the same translation, so the name shouldn't change.
 2. **If an author has produced several versions of their translation**, use `NAME` for the most recent one only; name all the others `NAME - DATE`, where `DATE` is the year of that edition. However, if the author is still alive, name the translation `NAME - DATE` even when it is the latest edition; this avoids having to rename it whenever a new edition is released.
-3. **If the author's name is unknown**, name the translation `ANONYMOUS - DATE`, or simply `DATE`.
+3. **If the author's name is unknown**, name the translation `ANONYMOUS - DATE`, or simply `DATE` if it's not ambiguous with another translation.
 ### Examples (French translations)
 - DARBY
 - BPC - 2024 (this is a slight revision of the DARBY made by BPC in 2024)
