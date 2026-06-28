@@ -5,7 +5,6 @@
 - The [Nouvelle Disposition](https://nouveautestament.github.io/edition/francais_simple/5.html) translation doesn't contain any paragraphs. The [Cahen](https://www.areopage.net/PDF/Cahen/Cahen_BibleHebreuFran%C3%A7ais.pdf) and [Martin](https://nouveautestament.github.io/martin_1707/01-MATTHIEU/17.jpg) ones don't seem to have any either.
 - The Darby translation places the symbols \* and ✝ next to the word "Dieu" to differentiate Elohim (no symbol), El (\*), and Eloah (✝); this comes from the translation itself ([cf. the preface](https://www.bibliquest.net/Bible/Annexes/Bible-Signes_et_abreviations.htm)).
 - The Martin translation is the 1707 version, with modernized spelling and brackets replacing italics.
-- _TODO_ (not feasible without the help of [the CNTR](https://greekcntr.org/home/index.html)): standardize versification across all translations, cf. the ['⋄' sign](https://github.com/Center-for-New-Testament-Restoration/transcriptions/blob/f551ca7e32745d9f4ace6a18a065c955aa34d34a/critical%20texts/RP.txt#L788) in the [Manuscript Encoding Specification (MES)](https://github.com/Center-for-New-Testament-Restoration/transcriptions?tab=readme-ov-file#description). More generally, make the translations adhere to MES.
 
 ## Guidelines for properly naming a translation
 These guidelines have been written to help avoid ambiguous, misleading, or incorrect naming, and to prevent different translations from sharing the same name.
