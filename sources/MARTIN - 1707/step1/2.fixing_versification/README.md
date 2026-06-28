@@ -1,0 +1,2 @@
+The original file doesn't fit the original versification of the translation.  
+The scripts in this folder has been made to transitioning from the unknwon current versification of the file to the original versification of the translation. By the way, it happens to be that the original versification of the translation is not the 1551 versification (to go from the orginial versification to the 1551 one we have another folder).

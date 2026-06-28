@@ -1,6 +1,6 @@
 #!/usr/bin/gawk -f
 # AWK script to format Martin 1707 Bible translation from HTML to bbcccvvv format
-# Usage: gawk -f format_martin.awk sources/MARTIN/source.html > MARTIN_1707.txt
+# Usage: gawk -f format_martin.awk source.html > output.txt
 
 BEGIN {
     # Book mappings for French Martin translation (Protestant order)
