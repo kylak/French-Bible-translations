@@ -27854,14 +27854,14 @@
 44024017 Or après plusieurs années, je suis venu pour faire des aumônes et des oblations dans ma nation.
 44024018 Et comme je m’occupais à cela, ils m’ont trouvé purifié dans le Temple, non point avec troupe, ni avec tumulte.
 44024019 Et [c’étaient] de certains Juifs d’Asie, ⋄20Qui devaient comparaître devant toi, et m’accuser, s’ils avaient quelque chose contre moi.
-44024020 Ou que ceux-ci eux-mêmes disent, s’ils ont trouvé en moi quelque injustice, quand j’ai été présenté au Conseil;
-44024021 Sinon cette seule parole que j’ai dite hautement devant eux; Aujourd’hui je suis tiré en cause par vous, pour la résurrection des morts.
-44024022 Et Félix ayant ouï ces choses, le remit à une autre fois, en disant; Après que j’aurai plus exactement connu ce que c’est de cette secte, quand le capitaine Lysias sera descendu, je connaîtrai entièrement de vos affaires.
-44024023 Et il commanda à un centenier que Paul fût gardé, mais qu’il eût aussi quelque relâche, et qu’on n’empêchât aucun des siens de le servir, ou de venir vers lui.
-44024024 Or quelques jours après, Félix vint avec Drusille sa femme, qui était Juive, et il envoya quérir Paul, et l’ouït [parler] de la foi qui est en Christ.
-44024025 Et comme il parlait de la justice, et de la tempérance, et du jugement à venir, Félix tout effrayé répondit; Pour le présent va-t’en, et quand j’aurai la commodité je te rappellerai:
-44024026 Espérant aussi en même temps que Paul lui donnerait quelque argent pour le délivrer, c’est pourquoi il l’envoyait quérir souvent, et s’entretenait avec lui.
-44024027 Or après deux ans accomplis Félix eut pour successeur Portius Festus, qui voulant faire plaisir aux Juifs, laissa Paul en prison.
+44024020 ⋄21Ou que ceux-ci eux-mêmes disent, s’ils ont trouvé en moi quelque injustice, quand j’ai été présenté au Conseil;
+44024021 ⋄22Sinon cette seule parole que j’ai dite hautement devant eux; Aujourd’hui je suis tiré en cause par vous, pour la résurrection des morts.
+44024022 ⋄23Et Félix ayant ouï ces choses, le remit à une autre fois, en disant; Après que j’aurai plus exactement connu ce que c’est de cette secte, quand le capitaine Lysias sera descendu, je connaîtrai entièrement de vos affaires.
+44024023 ⋄24Et il commanda à un centenier que Paul fût gardé, mais qu’il eût aussi quelque relâche, et qu’on n’empêchât aucun des siens de le servir, ou de venir vers lui.
+44024024 ⋄25Or quelques jours après, Félix vint avec Drusille sa femme, qui était Juive, et il envoya quérir Paul, et l’ouït [parler] de la foi qui est en Christ.
+44024025 ⋄26Et comme il parlait de la justice, et de la tempérance, et du jugement à venir, Félix tout effrayé répondit; Pour le présent va-t’en, et quand j’aurai la commodité je te rappellerai:
+44024026 ⋄27Espérant aussi en même temps que Paul lui donnerait quelque argent pour le délivrer, c’est pourquoi il l’envoyait quérir souvent, et s’entretenait avec lui.
+44024027 ⋄28Or après deux ans accomplis Félix eut pour successeur Portius Festus, qui voulant faire plaisir aux Juifs, laissa Paul en prison.
 44025001 Festus donc étant entré dans la Province, monta trois jours après de Césarée à Jérusalem.
 44025002 Et le souverain Sacrificateur, et les premiers d’entre les Juifs, comparurent devant lui contre Paul, et ils priaient [Festus],
 44025003 Et [lui] demandaient cette grâce contre Paul, qu’il le fît venir à Jérusalem; [car] ils avaient dressé des embûches pour le tuer par le chemin.
@@ -28078,15 +28078,16 @@
 45003019 Or nous savons que tout ce que la Loi dit, elle le dit à ceux qui sont sous la Loi, afin que toute bouche soit fermée, et que tout le monde soit coupable devant Dieu.
 45003020 C’est pourquoi nulle chair ne sera justifiée devant lui par les oeuvres de la Loi: car par la Loi [est donnée] la connaissance du péché.
 45003021 Mais maintenant la justice de Dieu est manifestée sans la Loi, lui étant rendu témoignage par la Loi, et par les Prophètes.
-45003022 La justice, dis-je, de Dieu par la foi en Jésus-Christ, envers tous et sur tous ceux qui croient: car il n’y a nulle différence, vu que tous ont péché, et qu’ils sont entièrement destitués de la gloire de Dieu.
-45003023 Étant justifiés gratuitement par sa grâce, par la rédemption qui est en Jésus-Christ:
-45003024 Lequel Dieu a ordonné de tout temps pour Propitiatoire par la foi, en son sang, afin de montrer sa justice, par la rémission des péchés précédents, selon la patience de Dieu:
-45003025 Pour montrer, [dis-je], sa justice dans le temps présent, afin qu’il soit [trouvé] juste, et justifiant celui qui est de la foi de Jésus.
-45003026 Où est donc le sujet de se glorifier? Il est exclu. Par quelle Loi? [est-ce par la Loi] des oeuvres? Non, mais par la Loi de la foi.
-45003027 Nous concluons donc que l’homme est justifié par la foi, sans les oeuvres de la Loi.
-45003028 [Dieu est-il] seulement le Dieu des Juifs? ne [l’est-il] pas aussi des Gentils? certes [il l’est] aussi des Gentils.
-45003029 Car il y a un seul Dieu qui justifiera par la foi la Circoncision, et le Prépuce [aussi] par la foi.
-45003030 Anéantissons-nous donc la Loi par la foi? Ainsi n’advienne! mais au contraire nous établissons la Loi.
+45003022 La justice, dis-je, de Dieu par la foi en Jésus-Christ, envers tous et sur tous ceux qui croient: car il n’y a nulle différence,
+45003023 vu que tous ont péché, et qu’ils sont entièrement destitués de la gloire de Dieu. 
+45003024 ⋄23Étant justifiés gratuitement par sa grâce, par la rédemption qui est en Jésus-Christ:
+45003025 ⋄24Lequel Dieu a ordonné de tout temps pour Propitiatoire par la foi, en son sang, afin de montrer sa justice, par la rémission des péchés précédents,
+45003026 selon la patience de Dieu: ⋄25Pour montrer, [dis-je], sa justice dans le temps présent, afin qu’il soit [trouvé] juste, et justifiant celui qui est de la foi de Jésus.
+45003027 ⋄26Où est donc le sujet de se glorifier? Il est exclu. Par quelle Loi? [est-ce par la Loi] des oeuvres? Non, mais par la Loi de la foi.
+45003028 ⋄27Nous concluons donc que l’homme est justifié par la foi, sans les oeuvres de la Loi.
+45003029 ⋄28[Dieu est-il] seulement le Dieu des Juifs? ne [l’est-il] pas aussi des Gentils? certes [il l’est] aussi des Gentils.
+45003030 ⋄29Car il y a un seul Dieu qui justifiera par la foi la Circoncision, et le Prépuce [aussi] par la foi.
+45003031 ⋄30Anéantissons-nous donc la Loi par la foi? Ainsi n’advienne! mais au contraire nous établissons la Loi.
 45004001 Que dirons-nous donc qu’Abraham notre père a trouvé selon la chair?
 45004002 Certes, si Abraham a été justifié par les oeuvres, il a de quoi se glorifier, mais non pas envers Dieu.
 45004003 Car que dit l’Écriture? qu’Abraham a cru à Dieu, et que cela lui a été imputé à justice.
@@ -28496,7 +28497,8 @@
 46003019 Parce que la sagesse de ce monde est une folie devant Dieu: car il est écrit; Il surprend les sages en leur ruse.
 46003020 Et encore; Le Seigneur connaît que les discours des sages sont vains.
 46003021 Que personne donc ne se glorifie dans les hommes: car toutes choses sont à vous:
-46003022 Soit Paul, soit Apollos, soit Céphas, soit le monde, soit la vie, soit la mort, soit les choses présentes, soit les choses à venir, toutes choses sont à vous, et vous à Christ, et Christ à Dieu.
+46003022 Soit Paul, soit Apollos, soit Céphas, soit le monde, soit la vie, soit la mort, soit les choses présentes, soit les choses à venir, toutes choses sont à vous,
+46003023 et vous à Christ, et Christ à Dieu.
 46004001 Que chacun nous tienne pour Ministres de Christ, et pour dispensateurs des mystères de Dieu:
 46004002 Mais, au reste, il est requis entre les dispensateurs que chacun soit trouvé fidèle.
 46004003 Pour moi, je me soucie fort peu d’être jugé de vous, ou de jugement d’homme: et aussi je ne me juge point moi-même.
