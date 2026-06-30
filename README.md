@@ -1,9 +1,7 @@
 ## Some information on the translations
-- All translations in this repository are in the **public domain**. The Martin, Darby, and Cahen translations are in the public domain because their authors died more than 70 years ago (cf. French law). Similarly, the author of the Nouvelle Disposition has explicitly released his work into the public domain (cf. [this link](https://nouveautestament.github.io/edition/francais_simple/index.html)).
+- All translations in this repository are in the **public domain**. The Martin, and Cahen translations are in the public domain because their authors died more than 70 years ago (cf. French law). 
 - Formatting details for the Bible translations in this repository are in the [instructions](instructions) folder; all programs used to format/produce the translations in this repository are in the [sources](sources) folder.
-- Versification may vary between translations; for example, in Martin, Leviticus 6:24–30 is offset relative to Darby.
-- The [Nouvelle Disposition](https://nouveautestament.github.io/edition/francais_simple/5.html) translation doesn't contain any paragraphs. The [Cahen](https://www.areopage.net/PDF/Cahen/Cahen_BibleHebreuFran%C3%A7ais.pdf) and [Martin](https://nouveautestament.github.io/martin_1707/01-MATTHIEU/17.jpg) ones don't seem to have any either.
-- The Darby translation places the symbols \* and ✝ next to the word "Dieu" to differentiate Elohim (no symbol), El (\*), and Eloah (✝); this comes from the translation itself ([cf. the preface](https://www.bibliquest.net/Bible/Annexes/Bible-Signes_et_abreviations.htm)).
+- Versification may vary between translations.
 - The Martin translation is the 1707 version, with modernized spelling and brackets replacing italics.
 
 ## Guidelines for properly naming a translation
