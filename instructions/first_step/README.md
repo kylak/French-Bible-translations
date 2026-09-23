@@ -43,7 +43,7 @@ Identify: reference format, separators
 
 ### 2. Create Book Mapping
 
-Map source abbreviations to book numbers (01-66). See `REFERENCE_BOOKS.txt` for standard mappings.
+Map source abbreviations to book numbers (01-66). See `REFERENCE_BOOKS.md` for standard mappings.
 
 **Common variations to handle:**
 - Abbreviations: "Gn" / "Gen" / "Ge"
@@ -60,7 +60,7 @@ Map source abbreviations to book numbers (01-66). See `REFERENCE_BOOKS.txt` for 
 **AWK Template for HTML:**
 ```awk
 BEGIN {
-    # Book mappings (see REFERENCE_BOOKS.txt)
+    # Book mappings (see REFERENCE_BOOKS.md)
     BOOK["Gn"]=1; BOOK["Ex"]=2; # ... etc
     BOOK["Mt"]=40; BOOK["Mk"]=41; # ... etc
 }
