@@ -28498,7 +28498,7 @@
 46003020 Et encore; Le Seigneur connaît que les discours des sages sont vains.
 46003021 Que personne donc ne se glorifie dans les hommes: car toutes choses sont à vous:
 46003022 Soit Paul, soit Apollos, soit Céphas, soit le monde, soit la vie, soit la mort, soit les choses présentes, soit les choses à venir, toutes choses sont à vous,
-46003023 et vous à Christ, et Christ à Dieu.
+46003023 ⋄-et vous à Christ, et Christ à Dieu.
 46004001 Que chacun nous tienne pour Ministres de Christ, et pour dispensateurs des mystères de Dieu:
 46004002 Mais, au reste, il est requis entre les dispensateurs que chacun soit trouvé fidèle.
 46004003 Pour moi, je me soucie fort peu d’être jugé de vous, ou de jugement d’homme: et aussi je ne me juge point moi-même.
