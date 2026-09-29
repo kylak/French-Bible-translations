@@ -24293,8 +24293,8 @@
 41003004 Puis il leur dit; Est-il permis de faire du bien [les jours] de Sabbat, ou de faire du mal? de sauver une personne, ou de la tuer? mais ils se turent.
 41003005 Alors les regardant de tous côtés avec indignation, et étant tout ensemble affligé de l’endurcissement de leur coeur, il dit à cet homme; Étends ta main; et il l’étendit: et sa main fut rendue saine comme l’autre.
 41003006 Alors les Pharisiens étant sortis, ils consultèrent contre lui avec les Hérodiens, comment ils le feraient pour périr.
-41003007 Mais Jésus se retira avec ses Disciples vers la mer, et une grande multitude le suivit de Galilée, et de Judée, et de Jérusalem, et d’Idumée, et de delà le Jourdain.
-41003008 Et ceux des environs de Tyr et de Sidon, ayant entendu les grandes choses qu’il faisait, vinrent vers lui en grand nombre.
+41003007 Mais Jésus se retira avec ses Disciples vers la mer, et une grande multitude le suivit de Galilée, et de Judée,
+41003008 et de Jérusalem, et d’Idumée, et de delà le Jourdain. ⋄8Et ceux des environs de Tyr et de Sidon, ayant entendu les grandes choses qu’il faisait, vinrent vers lui en grand nombre.
 41003009 Et il dit à ses Disciples, qu’une petite nacelle ne bougeât point de là pour le servir, à cause des troupes, afin qu’elles ne le pressassent point.
 41003010 Car il en avait guéri beaucoup, de sorte que tous ceux qui étaient affligés, se jetaient sur lui, pour le toucher.
 41003011 Et les esprits immondes, quand ils le voyaient, se prosternaient devant lui, et s’écriaient, en disant; Tu es le Fils de Dieu.
@@ -24317,8 +24317,8 @@
 41003028 En vérité je vous dis, que toutes sortes de péchés seront pardonnées aux enfants des hommes, et aussi [toutes sortes] de blasphèmes par lesquels ils auront blasphémé;
 41003029 Mais quiconque aura blasphémé contre le Saint Esprit, n’aura jamais de pardon, mais il sera coupable d’une condamnation éternelle:
 41003030 [Et c’était] parce qu’ils disaient; Il a l’esprit immonde.
-41003031 Sur cela ses frères et sa mère arrivèrent [là], et se tenant dehors ils l’envoyèrent appeler: et la multitude était assise autour de lui.
-41003032 Et on lui dit; Voilà ta mère et tes frères là dehors, [qui] te demandent.
+41003031 Sur cela ses frères et sa mère arrivèrent [là], et se tenant dehors ils l’envoyèrent appeler:
+41003032 et la multitude était assise autour de lui. ⋄32Et on lui dit; Voilà ta mère et tes frères là dehors, [qui] te demandent.
 41003033 Mais il leur répondit, en disant; Qui est ma mère, et qui sont mes frères?
 41003034 Et après avoir regardé de tous côtés ceux qui étaient assis autour de lui, il dit; Voici ma mère et mes frères.
 41003035 Car quiconque fera la volonté de Dieu, celui-là est mon frère, et ma soeur, et [ma] mère.
@@ -24347,8 +24347,8 @@
 41004023 Si quelqu’un a des oreilles pour ouïr, qu’il oie.
 41004024 Davantage, il leur disait; Prenez garde à ce que vous oyez: De la mesure dont vous mesurerez, il vous sera mesuré: mais à vous qui oyez, il sera ajouté.
 41004025 Car à celui qui a, il lui sera donné: et à celui qui n’a rien, cela même qu’il a, lui sera ôté.
-41004026 Il disait aussi; Le Royaume de Dieu est comme si un homme après avoir jeté de la semence dans la terre, dormait, et se levait de nuit et de jour:
-41004027 Et que la semence germât et crût, sans qu’il sache comment.
+41004026 Il disait aussi; Le Royaume de Dieu est comme si un homme après avoir jeté de la semence dans la terre,
+41004027 dormait, et se levait de nuit et de jour: ⋄27Et que la semence germât et crût, sans qu’il sache comment.
 41004028 Car la terre produit d’elle-même premièrement l’herbe, ensuite l’épi, et puis le plein froment dans l’épi:
 41004029 Et quand le fruit s’est montré, on y met incontinent la faucille, parce que la moisson est prête.
 41004030 Il disait encore; À quoi comparerons-nous le Royaume de Dieu, ou par quelle similitude le représenterons-nous?
@@ -24376,8 +24376,8 @@
 41005011 Or il y avait là vers les montagnes un grand troupeau de pourceaux qui paissait.
 41005012 Et tous ces diables le priaient, en disant; Envoie-nous dans les pourceaux, afin que nous entrions en eux: et aussitôt Jésus le leur permit.
 41005013 Alors ces esprits immondes étant sortis, entrèrent dans les pourceaux, et le troupeau, qui était d’environ deux mille, se jeta du haut en bas dans la mer; et ils furent étouffés dans la mer.
-41005014 Et ceux qui paissaient les pourceaux s’enfuirent, et en portèrent les nouvelles dans la ville; et dans les villages.
-41005015 Et [ceux de la ville] sortirent pour voir ce qui était arrivé, et vinrent à Jésus; et ils virent le démoniaque, celui qui avait eu la légion, assis et vêtu, et en bon sens; et ils furent saisis de crainte.
+41005014 Et ceux qui paissaient les pourceaux s’enfuirent, et en portèrent les nouvelles dans la ville; et dans les villages. ⋄15Et [ceux de la ville] sortirent pour voir ce qui était arrivé, 
+41005015 et vinrent à Jésus; et ils virent le démoniaque, celui qui avait eu la légion, assis et vêtu, et en bon sens; et ils furent saisis de crainte.
 41005016 Et ceux qui avaient vu [le miracle], leur racontèrent ce qui était arrivé au démoniaque, et aux pourceaux.
 41005017 Alors ils se mirent à le prier qu’il se retirât de leurs quartiers.
 41005018 Et quand il fut entré dans la nacelle, celui qui avait été démoniaque le pria [de permettre] qu’il fût avec lui.
@@ -25107,15 +25107,15 @@
 42004043 Mais il leur dit; Il faut que j’évangélise aussi aux autres villes le Royaume de Dieu; car je suis envoyé pour cela.
 42004044 Et il prêchait dans les Synagogues de Galilée.
 42005001 Or il arriva, comme la foule se jetait toute sur lui pour entendre la parole de Dieu, qu’il se tenait sur le bord du lac de Génézareth.
-42005002 Et voyant deux nacelles qui étaient au bord du lac, et dont les pêcheurs étaient descendus, et lavaient leurs rets; il monta dans l’une de ces nacelles, qui était à Simon.
-42005003 Et il le pria de la mener un peu loin de terre: puis s’étant assis, il enseignait de dessus la nacelle les troupes [du peuple].
+42005002 Et voyant deux nacelles qui étaient au bord du lac, et dont les pêcheurs étaient descendus, et lavaient leurs rets;
+42005003 il monta dans l’une de ces nacelles, qui était à Simon. ⋄3Et il le pria de la mener un peu loin de terre: puis s’étant assis, il enseignait de dessus la nacelle les troupes [du peuple].
 42005004 Et quand il eut achevé de parler, il dit à Simon; Mène en pleine eau, et lâchez vos filets pour pêcher.
 42005005 Et Simon répondant, lui dit; Maître, nous avons travaillé toute la nuit, et nous n’avons rien pris: toutefois à ta parole je lâcherai les filets.
 42005006 Ce qu’ayant fait, ils enfermèrent une si grande quantité de poissons, que leurs filets se rompaient.
 42005007 Et ils firent signe à leurs compagnons qui [étaient] dans l’autre nacelle, de venir les aider; et étant venus ils remplirent les deux nacelles, tellement qu’elles s’enfonçaient.
 42005008 Et quand Simon-Pierre eut vu cela, il se jeta aux genoux de Jésus, en [lui] disant; Seigneur, retire-toi de moi: car je suis un homme pécheur.
-42005009 Parce que la frayeur l’avait saisi, lui et tous ceux qui [étaient] avec lui, à cause de cette [grande] prise de poissons qu’ils venaient de faire: de même que Jacques et Jean, fils de Zébédée, qui étaient compagnons de Simon.
-42005010 Alors Jésus dit à Simon; N’aie point de peur: dorénavant tu seras preneur d’hommes vivants.
+42005009 Parce que la frayeur l’avait saisi, lui et tous ceux qui [étaient] avec lui, à cause de cette [grande] prise de poissons qu’ils venaient de faire:
+42005010 de même que Jacques et Jean, fils de Zébédée, qui étaient compagnons de Simon. ⋄10Alors Jésus dit à Simon; N’aie point de peur: dorénavant tu seras preneur d’hommes vivants.
 42005011 Et quand ils eurent amené les nacelles à terre, ils quittèrent tout, et le suivirent.
 42005012 Or il arriva que comme il était dans une des villes [de ce pays-là], voici, un homme plein de lèpre voyant Jésus, se jeta en terre sur sa face, et le pria, disant; Seigneur, si tu veux, tu peux me rendre net.
 42005013 Et [Jésus] étendit la main, et le toucha, en disant; Je le veux, sois net: et incontinent la lèpre le quitta.
@@ -25539,8 +25539,8 @@
 42013020 Il dit encore; À quoi comparerai-je le Royaume de Dieu?
 42013021 Il est semblable au levain qu’une femme prit, et qu’elle mit parmi trois mesures de farine, jusqu’à ce qu’elle fût toute levée.
 42013022 Puis il s’en allait par les villes et par les bourgades, enseignant, et tenant le chemin de Jérusalem.
-42013023 Et quelqu’un lui dit; Seigneur, n’y a-t-il que peu de gens qui soient sauvés?
-42013024 Et il leur dit; Faites effort pour entrer par la porte étroite: car je vous dis que plusieurs tâcheront d’entrer, et ils ne le pourront.
+42013023 Et quelqu’un lui dit; Seigneur, n’y a-t-il que peu de gens qui soient sauvés? ⋄24Et il leur dit; 
+42013024 Faites effort pour entrer par la porte étroite: car je vous dis que plusieurs tâcheront d’entrer, et ils ne le pourront.
 42013025 Et après que le père de famille se sera levé, et qu’il aura fermé la porte, et que vous étant dehors vous vous mettrez à heurter à la porte, en disant; Seigneur, Seigneur, ouvre-nous, et que lui vous répondant vous dira; Je ne sais d’où vous êtes:
 42013026 Alors vous vous mettrez à dire; Nous avons mangé et bu en ta présence, et tu as enseigné dans nos rues.
 42013027 Mais il dira; Je vous dis que je ne sais d’où vous êtes: retirez-vous de moi, vous tous qui faites le métier d’iniquité.
@@ -25946,8 +25946,8 @@
 42023010 Et les principaux Sacrificateurs et les Scribes comparurent-[là], l’accusant avec une grande véhémence.
 42023011 Mais Hérode avec ses gens l’ayant méprisé, et s’étant moqué de lui, après qu’il l’eut revêtu d’un vêtement blanc, le renvoya à Pilate.
 42023012 Et en ce même jour Pilate et Hérode devinrent amis entre eux: car auparavant ils étaient en inimitié ensemble.
-42023013 Alors Pilate ayant appelé les principaux Sacrificateurs, et les Gouverneurs, et le peuple, il leur dit:
-42023014 Vous m’avez présenté cet homme comme pervertissant le peuple: et voici, l’en ayant fait répondre devant vous, je n’ai trouvé en cet homme aucun de ces crimes dont vous l’accusez:
+42023013 Alors Pilate ayant appelé les principaux Sacrificateurs, et les Gouverneurs, et le peuple,
+42023014 il leur dit: ⋄14Vous m’avez présenté cet homme comme pervertissant le peuple: et voici, l’en ayant fait répondre devant vous, je n’ai trouvé en cet homme aucun de ces crimes dont vous l’accusez:
 42023015 Ni Hérode non plus: car je vous ai renvoyés à lui, et voici, rien ne lui a été fait [qui marque qu’il soit] digne de mort.
 42023016 Quand donc je l’aurai fait fouetter, je le relâcherai.
 42023017 Or il fallait qu’il leur relâchât quelqu’un à la fête.
@@ -26037,8 +26037,8 @@
 42024045 Alors il leur ouvrit l’entendement pour entendre les Écritures: ⋄46Et il leur dit;
 42024046 Il est ainsi écrit, et ainsi il fallait que le Christ souffrît, et qu’il ressuscitât des morts le troisième jour:
 42024047 Et qu’on prêchât en son Nom la repentance et la rémission des péchés parmi toutes les nations, en commençant par Jérusalem.
-42024048 Et vous êtes témoins de ces choses: et voici, je m’en vais envoyer sur vous la promesse de mon Père.
-42024049 Vous donc demeurez dans la ville de Jérusalem, jusqu’à ce que vous soyez revêtus de la vertu d’en haut.
+42024048 Et vous êtes témoins de ces choses:
+42024049 et voici, je m’en vais envoyer sur vous la promesse de mon Père. ⋄49Vous donc demeurez dans la ville de Jérusalem, jusqu’à ce que vous soyez revêtus de la vertu d’en haut.
 42024050 Après quoi il les mena dehors jusqu’en Béthanie, et levant ses mains en haut, il les bénit.
 42024051 Et il arriva qu’en les bénissant, il se sépara d’eux, et fut élevé au Ciel.
 42024052 Et eux l’ayant adoré, s’en retournèrent à Jérusalem avec grande joie.
@@ -27303,8 +27303,8 @@
 44010043 Tous les Prophètes lui rendent témoignage, que quiconque croira en lui, recevra la rémission de ses péchés par son Nom.
 44010044 Comme Pierre tenait encore ce discours, le Saint Esprit descendit sur tous ceux qui écoutaient la parole.
 44010045 Mais les Fidèles de la Circoncision qui étaient venus avec Pierre, s’étonnèrent de ce que le don du Saint Esprit était aussi répandu sur les Gentils.
-44010046 Car ils les entendaient parler [diverses] Langues, et glorifier Dieu.
-44010047 Alors Pierre prenant la parole, [dit]; Qu’est-ce qui pourrait s’opposer à ce que ceux-ci, qui ont reçu comme nous le Saint Esprit, ne soient baptisés d’eau.
+44010046 Car ils les entendaient parler [diverses] Langues, et glorifier Dieu. ⋄47Alors Pierre prenant la parole, [dit]; 
+44010047 Qu’est-ce qui pourrait s’opposer à ce que ceux-ci, qui ont reçu comme nous le Saint Esprit, ne soient baptisés d’eau.
 44010048 Il commanda donc qu’ils fussent baptisés au Nom du Seigneur: alors ils le prièrent de demeurer [là] quelques jours.
 44011001 Or les Apôtres et les frères qui étaient en Judée, apprirent que les Gentils aussi avaient reçu la parole de Dieu.
 44011002 Et quand Pierre fut remonté à Jérusalem, ceux de la Circoncision disputaient avec lui:
@@ -27338,8 +27338,8 @@
 44011030 Ce qu’ils firent aussi, l’envoyant aux Anciens par les mains de Barnabas et de Saul.
 44012001 En ce même temps le Roi Hérode se mit à maltraiter quelques-uns de ceux de l’Église;
 44012002 Et fit mourir par l’épée Jacques, frère de Jean.
-44012003 Et voyant que cela était agréable aux Juifs, il continua, en faisant prendre aussi Pierre.
-44012004 Or c’étaient les jours des pains sans levain. Et quand il l’eut fait prendre, il le mit en prison, et le donna à garder à quatre bandes, de quatre soldats chacune, le voulant produire au supplice devant le peuple après la [fête de] Pâque.
+44012003 Et voyant que cela était agréable aux Juifs, il continua, en faisant prendre aussi Pierre. ⋄4Or c’étaient les jours des pains sans levain. 
+44012004 Et quand il l’eut fait prendre, il le mit en prison, et le donna à garder à quatre bandes, de quatre soldats chacune, le voulant produire au supplice devant le peuple après la [fête de] Pâque.
 44012005 Ainsi Pierre était gardé dans la prison: mais l’Église faisait sans cesse des prières à Dieu pour lui.
 44012006 Or dans le temps qu’Hérode était prêt de l’envoyer au supplice, cette nuit-là même Pierre dormait entre deux soldats, lié de deux chaînes, et les gardes [qui étaient] devant la porte, gardaient la prison.
 44012007 Et voici, un Ange du Seigneur survint, et une lumière resplendit dans la prison, et [l’Ange] frappant le côté de Pierre, le réveilla, en [lui] disant; Lève-toi légèrement: et les chaînes tombèrent de ses mains.
@@ -27584,8 +27584,8 @@
 44018026 Il commença donc à parler avec hardiesse dans la Synagogue; et quand Priscille et Aquile l’eurent entendu, ils le prirent avec eux, et lui expliquèrent plus particulièrement la voie de Dieu.
 44018027 Et comme il voulut passer en Achaïe, les frères qui l’y avaient exhorté, écrivirent aux disciples de le recevoir, et quand il y fut arrivé, il profita beaucoup à ceux qui avaient cru par la grâce.
 44018028 Car il convainquait publiquement les Juifs avec une grande véhémence, démontrant par les Écritures que Jésus était le Christ.
-44019001 Or il arriva comme Apollos était à Corinthe, que Paul après avoir traversé tous les quartiers d’en haut, vint à Éphèse, où ayant trouvé de certains disciples, il leur dit:
-44019002 Avez-vous reçu le Saint Esprit quand vous avez cru? et ils lui [répon]dirent; Nous n’avons pas même ouï dire s’il y a un Saint Esprit.
+44019001 Or il arriva comme Apollos était à Corinthe, que Paul après avoir traversé tous les quartiers d’en haut, vint à Éphèse, où ayant trouvé de certains disciples,
+44019002 il leur dit: ⋄2Avez-vous reçu le Saint Esprit quand vous avez cru? et ils lui [répon]dirent; Nous n’avons pas même ouï dire s’il y a un Saint Esprit.
 44019003 Et il leur dit; De quel [Baptême] donc avez-vous été baptisés; ils [répon]dirent; Du Baptême de Jean.
 44019004 Alors Paul dit; Il est vrai que Jean a baptisé du Baptême de repentance, disant au peuple, qu’ils crussent en celui qui venait après lui, c’est-à-dire, en Jésus-Christ.
 44019005 Et ayant ouï ces choses, ils furent baptisés au Nom du Seigneur Jésus.
@@ -27713,8 +27713,8 @@
 44022009 Or ceux qui étaient avec moi virent bien la lumière, et ils en furent tout effrayés, mais ils n’entendirent point la voix de celui qui parlait à moi.
 44022010 Et je dis; Seigneur, que ferai-je? et le Seigneur me dit; Lève-toi, et t’en va à Damas, et là il te sera parlé de tout ce qu’il t’est ordonné de faire.
 44022011 Or parce que je ne voyais rien, à cause de la splendeur de cette lumière, ceux qui étaient avec moi me menèrent par la main, et je vins à Damas.
-44022012 Et un homme [nommé] Ananias, qui craignait Dieu selon la Loi, [et] qui avait [bon] témoignage de tous les Juifs qui demeuraient là, vint à moi:
-44022013 Et étant près de moi, il me dit, Saul [mon] frère, recouvre la vue: et sur l’heure même je regardai vers lui.
+44022012 Et un homme [nommé] Ananias, qui craignait Dieu selon la Loi, [et] qui avait [bon] témoignage de tous les Juifs qui demeuraient là,
+44022013 vint à moi: ⋄13Et étant près de moi, il me dit, Saul [mon] frère, recouvre la vue: et sur l’heure même je regardai vers lui.
 44022014 Et il [me] dit; Le Dieu de nos pères t’a préordonné pour connaître sa volonté, et pour voir le Juste, et pour ouïr la voix de sa bouche.
 44022015 Car tu lui seras témoin envers tous les hommes des choses que tu as vues et ouïes.
 44022016 Et maintenant que tardes-tu? Lève-toi et sois baptisé et lavé de tes péchés, en invoquant le Nom du Seigneur.
@@ -28473,8 +28473,8 @@
 46006006 Mais un frère a des procès contre son frère, et cela devant les infidèles.
 46006007 C’est même déjà un grand défaut en vous, que vous ayez des procès entre vous. Pourquoi n’endurez-vous pas plutôt qu’on vous fasse tort? Pourquoi ne souffrez-vous pas plutôt du dommage?
 46006008 Mais, au contraire, vous faites tort, et vous causez du dommage, et même à vos frères.
-46006009 Ne savez-vous pas que les injustes n’hériteront point le Royaume de Dieu?
-46006010 Ne vous abusez point: ni les paillards, ni les idolâtres, ni les adultères, ni les efféminés, ni ceux qui commettent des péchés contre nature, ni les larrons, ni les avares, ni les ivrognes, ni les médisants, ni les ravisseurs, n’hériteront point le Royaume de Dieu.
+46006009 Ne savez-vous pas que les injustes n’hériteront point le Royaume de Dieu? ⋄10Ne vous abusez point: ni les paillards, ni les idolâtres, ni les adultères, ni les efféminés, ni ceux qui commettent des péchés contre nature,
+46006010 ni les larrons, ni les avares, ni les ivrognes, ni les médisants, ni les ravisseurs, n’hériteront point le Royaume de Dieu.
 46006011 Et quelques-uns de vous étiez tels: mais vous avez été lavés, mais vous avez été sanctifiés, mais vous avez été justifiés au Nom du Seigneur Jésus, et par l’Esprit de notre Dieu.
 46006012 Toutes choses me sont permises, mais toutes choses ne sont pas expédientes: toutes choses me sont permises, mais je ne serai point assujetti sous la puissance d’aucune chose.
 46006013 Les viandes [sont] pour le ventre, et le ventre est pour les viandes: mais Dieu détruira l’un et l’autre. Or le corps n’est point pour la paillardise, mais pour le Seigneur, et le Seigneur pour le corps.
@@ -28900,11 +28900,11 @@
 47006002 Car il dit; Je t’ai exaucé au temps agréable, et t’ai secouru au jour du salut: Voici maintenant le temps agréable, voici maintenant le jour du salut.
 47006003 Ne donnant aucun scandale en quoi que ce soit, afin que [notre] ministère ne soit point blâmé.
 47006004 Mais nous rendant recommandables en toutes choses, comme [étant] ministres de Dieu, en grande patience, en afflictions, en nécessités, en angoisses,
-47006005 En blessures, en prisons, en troubles, en travaux,
-47006006 En veilles, en jeûnes, en pureté: par la connaissance, par un esprit patient, par bénignité, par le Saint Esprit, par une charité sans feinte,
+47006005 En blessures, en prisons, en troubles, en travaux, ⋄6En veilles, en jeûnes,
+47006006 en pureté: par la connaissance, par un esprit patient, par bénignité, par le Saint Esprit, par une charité sans feinte,
 47006007 Par la parole de la vérité, par la puissance de Dieu, par les armes de justice à droite et à gauche:
-47006008 Parmi l’honneur et l’ignominie, parmi la calomnie et la bonne réputation.
-47006009 Comme séducteurs, et [toutefois] étant véritables: comme inconnus, et [toutefois] étant reconnus: comme mourants, et voici nous vivons: comme châtiés, et [toutefois] non mis à mort:
+47006008 Parmi l’honneur et l’ignominie, parmi la calomnie et la bonne réputation. ⋄9Comme séducteurs, et [toutefois] étant véritables:
+47006009 comme inconnus, et [toutefois] étant reconnus: comme mourants, et voici nous vivons: comme châtiés, et [toutefois] non mis à mort:
 47006010 Comme contristés, et [toutefois] toujours joyeux: comme pauvres, et [toutefois] enrichissant plusieurs: comme n’ayant rien, et [toutefois] possédant toutes choses.
 47006011 Ô Corinthiens! notre bouche est ouverte pour vous, notre coeur s’est élargi.
 47006012 Vous n’êtes point à l’étroit au-dedans de nous, mais vous êtes à l’étroit dans vos entrailles.
@@ -29384,8 +29384,8 @@
 50001024 Mais il est plus nécessaire pour vous que je demeure en la chair.
 50001025 Et je sais cela comme tout assuré, que je demeurerai, et que je continuerai d’être avec vous tous pour votre avancement, et pour la joie de [votre] foi:
 50001026 Afin que vous ayez en moi un sujet de vous glorifier de plus en plus en Jésus-Christ, par mon retour au milieu de vous.
-50001027 Seulement conversez dignement comme il est séant selon l’Évangile de Christ: afin que soit que je vienne, et que je vous voie; soit que je sois absent, j’entende quant à votre état, que vous persistez en un même esprit, combattant ensemble d’un même courage par la foi de l’Évangile, et n’étant en rien épouvantés par les adversaires.
-50001028 Ce qui leur est une démonstration de perdition, mais à vous, de salut: et cela de la part de Dieu.
+50001027 Seulement conversez dignement comme il est séant selon l’Évangile de Christ: afin que soit que je vienne, et que je vous voie; soit que je sois absent, j’entende quant à votre état, que vous persistez en un même esprit, combattant ensemble d’un même courage par la foi de l’Évangile,
+50001028 et n’étant en rien épouvantés par les adversaires. ⋄28Ce qui leur est une démonstration de perdition, mais à vous, de salut: et cela de la part de Dieu.
 50001029 Parce qu’il vous a été gratuitement donné pour Christ, non seulement de croire en lui, mais aussi de souffrir pour lui:
 50001030 Ayant [à soutenir] le même combat que vous avez vu en moi, et que vous apprenez [être] maintenant en moi.
 50002001 Si donc [il y a] quelque consolation en Christ, s’il [y a] quelque soulagement de charité, s’il [y a] quelque communion d’esprit, s’il [y a] quelques cordiales affections et compassions,
@@ -29402,8 +29402,8 @@
 50002012 C’est pourquoi, mes bien-aimés, ainsi que vous avez toujours obéi, non seulement comme en ma présence, mais beaucoup plus maintenant en mon absence, employez-vous à votre propre salut avec crainte et tremblement.
 50002013 Car c’est Dieu qui produit en vous avec efficace et le vouloir, et le parfaire, selon son bon plaisir.
 50002014 Faites toutes choses sans murmures, et sans disputes:
-50002015 Afin que vous soyez sans reproche, et simples, des enfants de Dieu irrépréhensibles au milieu de la génération tortue et perverse, parmi lesquels vous reluisez comme des flambeaux au monde, qui portent au-devant d’eux la parole de vie.
-50002016 Pour me glorifier en la journée de Christ de n’avoir point couru en vain, ni travaillé en vain.
+50002015 Afin que vous soyez sans reproche, et simples, des enfants de Dieu irrépréhensibles au milieu de la génération tortue et perverse, parmi lesquels vous reluisez comme des flambeaux au monde,
+50002016 qui portent au-devant d’eux la parole de vie. ⋄16Pour me glorifier en la journée de Christ de n’avoir point couru en vain, ni travaillé en vain.
 50002017 Que si même je sers d’aspersion sur le sacrifice et le service de votre foi, j’en suis joyeux; et je m’en réjouis avec vous tous.
 50002018 Vous aussi pareillement soyez-en joyeux, et réjouissez-vous-en avec moi.
 50002019 Or j’espère [avec la grâce] du Seigneur Jésus de vous envoyer bientôt Timothée, afin que j’aie aussi plus de courage quand j’aurai connu votre état.
@@ -29923,8 +29923,8 @@
 56003001 Avertis-les d’être soumis aux Principautés et aux Puissances, d’obéir aux Gouverneurs, d’être prêts à toute sorte de bonnes actions:
 56003002 De ne médire de personne: de n’être point querelleux, [mais] doux, et montrant toute débonnaireté envers tous les hommes.
 56003003 Car nous étions aussi autrefois insensés, rebelles, abusés, asservis à diverses convoitises et voluptés, vivants en malice et en envie, dignes d’être haïs, et nous haïssant l’un l’autre.
-56003004 Mais quand la bonté de Dieu notre Sauveur, et son amour envers les hommes sont clairement apparues, il nous a sauvés:
-56003005 Non par des oeuvres de justice que nous eussions faites, mais selon sa miséricorde; par le lavement de la régénération, et le renouvellement du Saint Esprit:
+56003004 Mais quand la bonté de Dieu notre Sauveur, et son amour envers les hommes sont clairement apparues,
+56003005 il nous a sauvés: ⋄5Non par des oeuvres de justice que nous eussions faites, mais selon sa miséricorde; par le lavement de la régénération, et le renouvellement du Saint Esprit:
 56003006 Lequel il a répandu abondamment en nous par Jésus-Christ notre Sauveur.
 56003007 Afin qu’ayant été justifiés par sa grâce, nous soyons héritiers selon l’espérance de la vie éternelle.
 56003008 Cette parole [est] certaine, et je veux que tu affirmes ces choses, afin que ceux qui ont cru en Dieu, aient soin les premiers de s’appliquer aux bonnes oeuvres: voilà les choses qui sont bonnes et utiles aux hommes.
@@ -30109,8 +30109,8 @@
 58009005 Et au-dessus de l’Arche [étaient] les Chérubins de gloire, faisant ombre sur le Propitiatoire, desquelles choses il n’est pas besoin maintenant de parler par le menu.
 58009006 Or ces choses étant ainsi disposées, les Sacrificateurs entrent bien toujours dans le premier Tabernacle pour accomplir le service:
 58009007 Mais le seul souverain Sacrificateur entre dans le second une fois l’an, [mais] non sans du sang, lequel il offre pour lui-même, et pour les fautes du peuple:
-58009008 Le Saint Esprit faisant connaître par là, que le chemin des lieux Saints n’était pas encore manifesté, tandis que le premier Tabernacle était encore debout, lequel était une figure [destinée] pour le temps d’alors:
-58009009 Durant lequel étaient offerts des dons et des sacrifices qui ne pouvaient point sanctifier la conscience de celui qui faisait le service,
+58009008 Le Saint Esprit faisant connaître par là, que le chemin des lieux Saints n’était pas encore manifesté, tandis que le premier Tabernacle était encore debout,
+58009009 lequel était une figure [destinée] pour le temps d’alors: ⋄9Durant lequel étaient offerts des dons et des sacrifices qui ne pouvaient point sanctifier la conscience de celui qui faisait le service,
 58009010 Ordonnés seulement en viandes, en breuvages, en diverses ablutions, et en des cérémonies charnelles, jusqu’au temps que cela serait redressé.
 58009011 Mais Christ étant venu [pour être] souverain Sacrificateur des biens à venir, par un plus excellent et plus parfait tabernacle, qui n’est pas un [tabernacle] fait de main, c’est-à-dire, qui soit de cette structure,
 58009012 Est entré une fois dans les lieux Saints par son propre sang, et non par le sang des veaux ou des boucs, après avoir obtenu une rédemption éternelle.
@@ -30137,8 +30137,8 @@
 58010005 C’est pourquoi [Jésus-Christ] en entrant au monde a dit; Tu n’as point voulu de sacrifice, ni d’offrande, mais tu m’as approprié un corps:
 58010006 Tu n’as point pris plaisir aux holocaustes, ni à l’oblation pour le péché.
 58010007 Alors j’ai dit; Me voici, je viens: il est écrit de moi au commencement du Livre; Que je fasse, ô Dieu, ta volonté.
-58010008 Ayant dit auparavant; Tu n’as point voulu de sacrifice, ni d’offrande, ni d’holocaustes, ni d’oblation pour le péché, et tu n’y as point pris plaisir, lesquelles choses sont [pourtant] offertes selon la Loi, alors il a dit; Me voici, je viens afin de faire, ô Dieu, ta volonté.
-58010009 Il ôte [donc] le premier, afin d’établir le second.
+58010008 Ayant dit auparavant; Tu n’as point voulu de sacrifice, ni d’offrande, ni d’holocaustes, ni d’oblation pour le péché, et tu n’y as point pris plaisir, lesquelles choses sont [pourtant] offertes selon la Loi,
+58010009 alors il a dit; Me voici, je viens afin de faire, ô Dieu, ta volonté. ⋄9Il ôte [donc] le premier, afin d’établir le second.
 58010010 Or c’est par cette volonté que nous sommes sanctifiés, [savoir] par l’oblation qui a été faite une seule fois du corps de Jésus-Christ.
 58010011 Tout Sacrificateur donc assiste chaque jour, administrant, et offrant souvent les mêmes sacrifices, qui ne peuvent jamais ôter les péchés:
 58010012 Mais celui-ci ayant offert un seul sacrifice pour les péchés, s’est assis pour toujours à la droite de Dieu:
@@ -30683,8 +30683,8 @@
 65001011 Malheur à eux, car ils ont suivi le train de Caïn, et ont couru, par un égarement [tel que celui] de Balaam, [après] la récompense, et ont péri par une contradiction [semblable à celle] de Coré.
 65001012 Ceux-ci sont des taches dans vos repas de charité, en prenant leurs repas avec vous, et se repaissant eux-mêmes sans crainte: [ce sont] des nuées sans eau, emportées des vents çà et là: des arbres dont le fruit se pourrit, [et] sans fruit, deux fois morts, et déracinés:
 65001013 Des vagues impétueuses de la mer, écumant leurs impuretés: des étoiles errantes, à qui l’obscurité des ténèbres est réservée éternellement.
-65001014 Desquels aussi Énoc, septième homme après Adam, a prophétisé, en disant:
-65001015 Voici, le Seigneur est venu avec ses Saints, qui sont par millions, pour donner jugement contre tous, et pour convaincre tous les méchants d’entre eux de toutes leurs méchantes actions qu’ils ont commises méchamment, et de toutes les paroles injurieuses que les pécheurs impies ont proférées contre lui.
+65001014 Desquels aussi Énoc, septième homme après Adam, a prophétisé, en disant: ⋄15Voici, le Seigneur est venu avec ses Saints, qui sont par millions,
+65001015 pour donner jugement contre tous, et pour convaincre tous les méchants d’entre eux de toutes leurs méchantes actions qu’ils ont commises méchamment, et de toutes les paroles injurieuses que les pécheurs impies ont proférées contre lui.
 65001016 Ce sont des murmurateurs, des querelleux, se conduisant selon leurs convoitises, dont la bouche prononce des discours fort enflés, et qui ont en admiration les personnes pour le profit qui leur en revient.
 65001017 Mais vous, [mes] bien-aimés, souvenez vous des paroles qui ont été dites auparavant par les Apôtres de notre Seigneur Jésus-Christ:
 65001018 Et comment ils vous disaient, qu’au dernier temps il y aurait des moqueurs, qui marcheraient selon leurs impies convoitises.
@@ -30699,8 +30699,8 @@
 66001002 Qui a annoncé la parole de Dieu, et le témoignage de Jésus-Christ, et toutes les choses qu’il a vues.
 66001003 Bienheureux [est] celui qui lit, et ceux qui écoutent les paroles de cette prophétie, et qui gardent les choses qui y sont écrites: car le temps est proche.
 66001004 Jean aux sept Églises qui êtes en Asie, Grâce et paix vous [soit] de par celui QUI EST, ET QUI ÉTAIT, ET QUI EST À VENIR, et de par les sept Esprits qui sont devant son trône.
-66001005 Et de par Jésus-Christ, [qui est] le témoin fidèle, le premier-né d’entre les morts, et le Prince des Rois de la terre,
-66001006 À lui, [dis-je], qui nous a aimés, et qui nous a lavés de nos péchés par son sang, et nous a faits Rois et Sacrificateurs à Dieu son Père, à lui [soit] gloire et force aux siècles des siècles, Amen.
+66001005 Et de par Jésus-Christ, [qui est] le témoin fidèle, le premier-né d’entre les morts, et le Prince des Rois de la terre, ⋄6À lui, [dis-je], qui nous a aimés, et qui nous a lavés de nos péchés par son sang,
+66001006 et nous a faits Rois et Sacrificateurs à Dieu son Père, à lui [soit] gloire et force aux siècles des siècles, Amen.
 66001007 Voici, il vient avec les nuées, et tout oeil le verra, et ceux même qui l’ont percé: et toutes les Tribus de la terre se lamenteront devant lui: oui, Amen.
 66001008 Je suis Alpha et Oméga, le commencement et la fin, dit le Seigneur, QUI EST, ET QUI ÉTAIT, ET QUI EST À VENIR, le Tout-puissant.
 66001009 Moi Jean, [qui suis] aussi votre frère et compagnon en l’affliction, et au règne, et en la patience de Jésus-Christ, j’étais en l’Île appelée Patmos, pour la parole de Dieu, et pour le Témoignage de Jésus-Christ.
