@@ -28,8 +28,8 @@ HERE=$(cd "$(dirname "$0")" && pwd)
 ROOT=$(cd "$HERE/../../../.." && pwd)
 
 SRC="$ROOT/sources/MARTIN - 1707/step1/1.getting_the_translation/output.txt"
-CUR="$ROOT/complete-Bible/MARTIN - 1707.txt"
-OUT="$ROOT/complete-Bible/MARTIN - 1707 (KJV).txt"
+CUR="$ROOT/sources/MARTIN - 1707/step1/2.fixing_versification/step3/output3.txt"
+OUT="$ROOT/sources/MARTIN - 1707/step2/1.old_testament_patch_and_versification/output.txt"
 FIRST_NT_BOOK=40
 
 [ -f "$SRC" ] || { echo "introuvable : $SRC" >&2; exit 1; }
