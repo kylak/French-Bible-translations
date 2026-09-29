@@ -62,7 +62,7 @@ HERE=$(cd "$(dirname "$0")" && pwd)
 ROOT=$(cd "$HERE/../../../.." && pwd)
 MARTIN="$ROOT/sources/MARTIN - 1707"
 
-SRC="$ROOT/complete-Bible/MARTIN - 1707 (KJV).txt"
+SRC="$ROOT/complete-Bible/MARTIN - 1707.txt"
 OUT="$ROOT/complete-Bible/MARTIN.txt"
 # Référence de la versification d'origine, telle qu'obtenue à l'origine depuis
 # source.html (step1 → step2 → step3). Sert de garde-fou indicatif.
