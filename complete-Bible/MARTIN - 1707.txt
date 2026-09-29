@@ -933,8 +933,8 @@
 01032004 Et leur commanda, en disant: Vous parlerez en cette manière à mon Seigneur Ésaü: Ainsi a dit ton serviteur Jacob: J’ai demeuré comme étranger chez Laban, et m’y suis arrêté jusqu’à présent.
 01032005 Et j’ai des boeufs, des ânes, des brebis, des serviteurs, et des servantes: ce que j’envoie annoncer à mon Seigneur, afin de trouver grâce devant lui.
 01032006 Et les messagers retournèrent à Jacob, et lui dirent: Nous sommes venus vers ton frère Ésaü, et même il vient au-devant de toi, ayant quatre cents hommes avec lui.
-01032007 Alors Jacob craignit beaucoup, et fut dans une grande angoisse, et ayant partagé le peuple qui [était] avec lui, et les brebis, et les boeufs, et les chameaux en deux bandes, il dit:
-01032008 Si Ésaü vient à l’une de ces bandes, et qu’il la frappe, la bande qui demeurera de reste échappera.
+01032007 Alors Jacob craignit beaucoup, et fut dans une grande angoisse, et ayant partagé le peuple qui [était] avec lui, et les brebis, et les boeufs, et les chameaux en deux bandes,
+01032008 il dit: ⋄8Si Ésaü vient à l’une de ces bandes, et qu’il la frappe, la bande qui demeurera de reste échappera.
 01032009 Jacob dit aussi: Ô Dieu de mon père Abraham, Dieu de mon père Isaac, ô Éternel qui m’as dit: Retourne en ton pays, et vers ta parenté, et je te ferai du bien.
 01032010 Je suis trop petit au prix de toutes tes gratuités, et de toute la vérité dont tu as usé envers ton serviteur: car j’ai passé ce Jourdain avec mon bâton, mais maintenant je m’en [retourne] avec ces deux bandes.
 01032011 Je te prie, délivre-moi de la main de mon frère Ésaü: car je crains qu’il ne vienne, et qu’il ne me frappe, et [qu’il ne tue] la mère sur les enfants.
@@ -9372,8 +9372,8 @@
 11018030 Élie dit alors à tout le peuple: Approchez-vous de moi: et tout le peuple s’approcha de lui, et il répara l’autel de l’Éternel, qui était démoli.
 11018031 Puis Élie prit douze pierres, selon le nombre des Tribus des enfants de Jacob, auquel la parole de l’Éternel avait été adressée, en disant: Israël sera ton nom.
 11018032 Et il rebâtit de ces pierres l’autel au Nom de l’Éternel, puis il fit un conduit de la capacité de deux sats de semence à l’entour de l’autel.
-11018033 Et il rangea le bois, et coupa le veau en pièces, et [le] mit sur le bois.
-11018034 Puis il dit: Emplissez quatre cruches d’eau, et [les] versez sur l’holocauste, et sur le bois: et il [leur] dit: Faites-le encore pour la deuxième fois; et ils le firent pour la deuxième fois: puis il leur dit: Faites-le encore pour la troisième fois: et ils le firent pour la troisième fois:
+11018033 Et il rangea le bois, et coupa le veau en pièces, et [le] mit sur le bois. ⋄34Puis il dit: Emplissez quatre cruches d’eau, et [les] versez sur l’holocauste, et sur le bois:
+11018034 et il [leur] dit: Faites-le encore pour la deuxième fois; et ils le firent pour la deuxième fois: puis il leur dit: Faites-le encore pour la troisième fois: et ils le firent pour la troisième fois:
 11018035 De sorte que les eaux allaient à l’entour de l’autel: et il remplit même le conduit d’eau.
 11018036 Et au temps qu’on offre l’oblation, Élie le Prophète s’approcha, et dit: Ô Éternel, Dieu d’Abraham, d’Isaac, et d’Israël, [fais] qu’on connaisse aujourd’hui que tu [es] Dieu en Israël, et que [je suis] ton serviteur, et que j’ai fait toutes ces choses, selon ta parole.
 11018037 Exauce-moi, ô Éternel, exauce-moi: et [fais] que ce peuple connaisse que tu [es] l’Éternel Dieu, et que c’est toi qui auras fait retourner leurs coeurs en arrière.
@@ -9408,8 +9408,8 @@
 11019020 Et [Élisée] laissa ses boeufs, et courut après Élie, et dit: Je te prie, que je baise mon père, et ma mère, et puis je te suivrai: et il lui dit: Va, [et] retourne: car que t’ai-je fait?
 11019021 Il s’en retourna donc d’avec lui et prit une paire de boeufs, et les sacrifia, et de l’attelage des boeufs il en bouillit la chair, et [la] donna au peuple, et ils mangèrent: puis il se leva, et suivit Élie, et il le servait.
 11020001 Alors Ben-hadad Roi de Syrie assembla toute son armée, et [il y avait] avec lui trente-deux Rois, des chevaux, et des chariots: puis il monta, et assiégea Samarie, et lui fit la guerre.
-11020002 Et il envoya des messagers vers Achab Roi d’Israël dans la ville:
-11020003 Et il lui fit dire: Ainsi a dit Ben-hadad: Ton argent et ton or est à moi, tes femmes aussi, et tes beaux enfants sont à moi.
+11020002 Et il envoya des messagers vers Achab Roi d’Israël dans la ville: ⋄3Et il lui fit dire: Ainsi a dit Ben-hadad:
+11020003 Ton argent et ton or est à moi, tes femmes aussi, et tes beaux enfants sont à moi.
 11020004 Et le Roi d’Israël répondit, et dit: Mon Seigneur, je [suis] à toi comme tu le dis, et tout ce que j’ai.
 11020005 Ensuite les messagers retournèrent, et dirent: Ainsi a dit expressément Ben-hadad: Puisque je t’ai envoyé dire: Donne-moi ton argent et ton or, ta femme, et tes enfants;
 11020006 Certainement demain en ce même temps j’enverrai chez toi mes serviteurs, qui fouilleront ta maison, et les maisons de tes serviteurs, et se saisiront de tout ce que tu prends plaisir à voir, et l’emporteront.
@@ -23459,8 +23459,8 @@
 40010041 Celui qui reçoit un Prophète en qualité de Prophète, recevra la récompense d’un Prophète: et celui qui reçoit un juste en qualité de juste, recevra la récompense d’un juste.
 40010042 Et quiconque aura donné à boire seulement un verre d’eau froide à l’un de ces petits en qualité de disciple, je vous dis en vérité, qu’il ne perdra point sa récompense.
 40011001 Et il arriva que quand Jésus eut achevé de donner [ces] mandements à ses douze Disciples, il partit de là pour aller enseigner et prêcher dans leurs villes.
-40011002 Or Jean ayant ouï parler dans la prison des faits de Christ, envoya deux de ses Disciples pour lui dire:
-40011003 Es-tu celui qui devait venir, ou si nous devons en attendre un autre?
+40011002 Or Jean ayant ouï parler dans la prison des faits de Christ, envoya deux de ses Disciples
+40011003 pour lui dire: ⋄3Es-tu celui qui devait venir, ou si nous devons en attendre un autre?
 40011004 Et Jésus répondant, leur dit; Allez, et rapportez à Jean les choses que vous entendez, et que vous voyez.
 40011005 Les aveugles recouvrent la vue, les boiteux marchent, les lépreux sont nettoyés, et les sourds oient, les morts sont ressuscités, et l’Évangile est annoncé aux pauvres.
 40011006 Mais bienheureux est celui qui ne sera point scandalisé en moi.
